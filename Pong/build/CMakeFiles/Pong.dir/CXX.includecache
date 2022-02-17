@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Pong/src/Game.cpp
+Game.hpp
+/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Pong/src/Game.hpp
+
+/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Pong/src/Game.hpp
+SDL2/SDL.h
+-
+
+/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Pong/src/main.cpp
+iostream
+-
+Game.hpp
+/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Pong/src/Game.hpp
+
