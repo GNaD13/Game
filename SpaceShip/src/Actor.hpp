@@ -35,10 +35,12 @@ public:
     void SetScale(float scale) { mScale = scale; }
 
     float GetRotation() const { return mRotation; }
-    void GetRotation(float rotation) { mRotation = rotation; }
+    void SetRotation(float rotation) { mRotation = rotation; }
 
     void AddComponents(Component* component);
     void RemoveComponents(Component* component);
+
+    Game* GetGame() { return mGame; }
     
 private:  
     State mState;

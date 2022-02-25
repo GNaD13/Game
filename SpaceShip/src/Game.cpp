@@ -1,6 +1,7 @@
 #include "Game.hpp"
 #include "Actor.hpp"
 #include <algorithm>
+#include "BGSpriteComponent.hpp"
 
 Game::Game()
     :   mWindow(nullptr),
@@ -28,7 +29,7 @@ bool Game::Initialize()
     }
 
     // Create Window
-    mWindow = SDL_CreateWindow("Pong", 100, 100, 1024, 768, 0);
+    mWindow = SDL_CreateWindow("SpaceShip", 100, 100, 1024, 768, 0);
     if(!mWindow)
     {
         SDL_Log("Failed to create window: %s", SDL_GetError());
@@ -42,6 +43,16 @@ bool Game::Initialize()
         SDL_Log("Failed to create renderer: %s", SDL_GetError());
         return false;
     }
+
+    if(!IMG_Init(IMG_INIT_PNG))
+    {
+        SDL_Log("Failed to initialize IMG: %s", SDL_GetError());
+        return false;
+    }
+
+    LoadData();
+
+    mTickCount = SDL_GetTicks();
 
     return true;
 }
@@ -58,6 +69,8 @@ void Game::RunLoop()
 
 void Game::Shutdown()
 {
+    UnloadData();
+    IMG_Quit();
     SDL_DestroyRenderer(mRenderer);
     SDL_DestroyWindow(mWindow);
     SDL_Quit();
@@ -87,6 +100,8 @@ void Game::ProcessInput()
     {
         mIsRunning = false;
     }
+
+    mShip->ProcessInput(state);
 }
 
 void Game::UpdateGame()
@@ -139,7 +154,82 @@ void Game::GenerateOutput()
 {
     SDL_SetRenderDrawColor(mRenderer, 0, 0, 0, 255);
     SDL_RenderClear(mRenderer);
+
+    for(auto sprite : mSprites)
+    {
+        sprite->Draw(mRenderer);
+    }
+
     SDL_RenderPresent(mRenderer);
+}
+
+void Game::LoadData()
+{
+    mShip = new Ship(this);
+    mShip->SetPosition(Vector2(100.0f, 384.0f));
+	mShip->SetScale(1.5f);
+    mShip->SetRotation(0);
+
+    Actor* temp = new Actor(this);
+    temp->SetPosition(Vector2(512.0f, 384.0f));
+
+    // Set far back ground
+    BGSpriteComponent* bg = new BGSpriteComponent(temp);
+    bg->SetScreenSize(Vector2(1024.0f, 768.0f));
+    std::vector<SDL_Texture*> bgText = { GetTexture("../Assets/Farback01.png"),
+                                          GetTexture("../Assets/Farback02.png") };
+    bg->SetBGTextures(bgText);
+    bg->SetScrollSpeed(-100.0f);
+
+    bg = new BGSpriteComponent(temp, 50);
+    bg->SetScreenSize(Vector2(1024.0f, 768.0f));
+    bgText = { GetTexture("../Assets/Stars.png"),
+		       GetTexture("../Assets/Stars.png")};
+	bg->SetBGTextures(bgText);
+	bg->SetScrollSpeed(-200.0f);
+}
+
+void Game::UnloadData()
+{
+    while(!mActors.empty())
+    {
+        delete mActors.back();
+    }
+
+    for (auto i : mTextures)
+	{
+		SDL_DestroyTexture(i.second);
+	}
+	mTextures.clear();
+}
+
+SDL_Texture* Game::GetTexture(const std::string& filename)
+{
+    SDL_Texture* texture = nullptr;
+    auto iter = mTextures.find(filename);
+    if(iter != mTextures.end())
+    {
+        texture = iter->second;
+    }
+    else
+    {
+        SDL_Surface* surf = IMG_Load(filename.c_str());
+        if(!surf)
+        {
+            SDL_Log("Failed to load texture file %s", filename.c_str());
+            return nullptr;
+        }
+
+        texture = SDL_CreateTextureFromSurface(mRenderer, surf);
+        SDL_FreeSurface(surf);
+        if(!texture)
+        {
+            SDL_Log("Failed to convert surface to texture for %s", filename.c_str());
+            return nullptr;
+        }
+
+        return texture;
+    }
 }
 
 void Game::AddActor(Actor* actor)
@@ -157,29 +247,45 @@ void Game::AddActor(Actor* actor)
 void Game::RemoveActor(Actor* actor)
 {
     // Is actor in PendingActor?
-    auto iter = std::find(mPendingActors.begin(), mPendingActors.end(), actor);
-    if(iter != mPendingActors.end())
     {
-        std::iter_swap(iter, mPendingActors.end() - 1);
-        mPendingActors.pop_back();
+        auto iter = std::find(mPendingActors.begin(), mPendingActors.end(), actor);
+        if(iter != mPendingActors.end())
+        {
+            std::iter_swap(iter, mPendingActors.end() - 1);
+            mPendingActors.pop_back();
+        }
     }
-    
     // Is actor in Actor?
-    auto iter = std::find(mActors.begin(), mActors.end(), actor);
-    if(iter != mActors.end())
     {
-        std::iter_swap(iter, mActors.end() - 1);
-        mActors.pop_back();
+        auto iter = std::find(mActors.begin(), mActors.end(), actor);
+        if(iter != mActors.end())
+        {
+            std::iter_swap(iter, mActors.end() - 1);
+            mActors.pop_back();
+        }
     }
 }
 
-void Game::AddSprite()
+void Game::AddSprite(SpriteComponent* sprite)
 {
-
+    int myOrder = sprite->GetDrawOrder();
+    auto iter = mSprites.begin();
+    for(; iter != mSprites.end(); iter++)
+    {
+        if(myOrder < (*iter)->GetDrawOrder())
+        {
+            break;
+        }
+    }
+    mSprites.insert(iter, sprite);
 }
 
-void Game::RemoveSprite()
+void Game::RemoveSprite(SpriteComponent* sprite)
 {
-
+    auto iter = std::find(mSprites.begin(), mSprites.end(), sprite);
+    if(iter != mSprites.end())
+    {
+        mSprites.erase(iter);
+    }
 }
 

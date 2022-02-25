@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Pong
+CMAKE_SOURCE_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Pong/build
+CMAKE_BINARY_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Pong/build/CMakeFiles /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Pong/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Pong/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,125 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Pong
+# Target rules for targets named SpaceShip
 
 # Build rule for target.
-Pong: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pong
-.PHONY : Pong
+SpaceShip: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SpaceShip
+.PHONY : SpaceShip
 
 # fast build rule for target.
-Pong/fast:
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/build
-.PHONY : Pong/fast
+SpaceShip/fast:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/build
+.PHONY : SpaceShip/fast
+
+src/Actor.o: src/Actor.cpp.o
+
+.PHONY : src/Actor.o
+
+# target to build an object file
+src/Actor.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Actor.cpp.o
+.PHONY : src/Actor.cpp.o
+
+src/Actor.i: src/Actor.cpp.i
+
+.PHONY : src/Actor.i
+
+# target to preprocess a source file
+src/Actor.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Actor.cpp.i
+.PHONY : src/Actor.cpp.i
+
+src/Actor.s: src/Actor.cpp.s
+
+.PHONY : src/Actor.s
+
+# target to generate assembly for a file
+src/Actor.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Actor.cpp.s
+.PHONY : src/Actor.cpp.s
+
+src/AnimSpriteComponent.o: src/AnimSpriteComponent.cpp.o
+
+.PHONY : src/AnimSpriteComponent.o
+
+# target to build an object file
+src/AnimSpriteComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o
+.PHONY : src/AnimSpriteComponent.cpp.o
+
+src/AnimSpriteComponent.i: src/AnimSpriteComponent.cpp.i
+
+.PHONY : src/AnimSpriteComponent.i
+
+# target to preprocess a source file
+src/AnimSpriteComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.i
+.PHONY : src/AnimSpriteComponent.cpp.i
+
+src/AnimSpriteComponent.s: src/AnimSpriteComponent.cpp.s
+
+.PHONY : src/AnimSpriteComponent.s
+
+# target to generate assembly for a file
+src/AnimSpriteComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.s
+.PHONY : src/AnimSpriteComponent.cpp.s
+
+src/BGSpriteComponent.o: src/BGSpriteComponent.cpp.o
+
+.PHONY : src/BGSpriteComponent.o
+
+# target to build an object file
+src/BGSpriteComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o
+.PHONY : src/BGSpriteComponent.cpp.o
+
+src/BGSpriteComponent.i: src/BGSpriteComponent.cpp.i
+
+.PHONY : src/BGSpriteComponent.i
+
+# target to preprocess a source file
+src/BGSpriteComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.i
+.PHONY : src/BGSpriteComponent.cpp.i
+
+src/BGSpriteComponent.s: src/BGSpriteComponent.cpp.s
+
+.PHONY : src/BGSpriteComponent.s
+
+# target to generate assembly for a file
+src/BGSpriteComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.s
+.PHONY : src/BGSpriteComponent.cpp.s
+
+src/Component.o: src/Component.cpp.o
+
+.PHONY : src/Component.o
+
+# target to build an object file
+src/Component.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Component.cpp.o
+.PHONY : src/Component.cpp.o
+
+src/Component.i: src/Component.cpp.i
+
+.PHONY : src/Component.i
+
+# target to preprocess a source file
+src/Component.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Component.cpp.i
+.PHONY : src/Component.cpp.i
+
+src/Component.s: src/Component.cpp.s
+
+.PHONY : src/Component.s
+
+# target to generate assembly for a file
+src/Component.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Component.cpp.s
+.PHONY : src/Component.cpp.s
 
 src/Game.o: src/Game.cpp.o
 
@@ -129,7 +237,7 @@ src/Game.o: src/Game.cpp.o
 
 # target to build an object file
 src/Game.cpp.o:
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/src/Game.cpp.o
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Game.cpp.o
 .PHONY : src/Game.cpp.o
 
 src/Game.i: src/Game.cpp.i
@@ -138,7 +246,7 @@ src/Game.i: src/Game.cpp.i
 
 # target to preprocess a source file
 src/Game.cpp.i:
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/src/Game.cpp.i
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Game.cpp.i
 .PHONY : src/Game.cpp.i
 
 src/Game.s: src/Game.cpp.s
@@ -147,8 +255,89 @@ src/Game.s: src/Game.cpp.s
 
 # target to generate assembly for a file
 src/Game.cpp.s:
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/src/Game.cpp.s
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
+
+src/Math.o: src/Math.cpp.o
+
+.PHONY : src/Math.o
+
+# target to build an object file
+src/Math.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Math.cpp.o
+.PHONY : src/Math.cpp.o
+
+src/Math.i: src/Math.cpp.i
+
+.PHONY : src/Math.i
+
+# target to preprocess a source file
+src/Math.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Math.cpp.i
+.PHONY : src/Math.cpp.i
+
+src/Math.s: src/Math.cpp.s
+
+.PHONY : src/Math.s
+
+# target to generate assembly for a file
+src/Math.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Math.cpp.s
+.PHONY : src/Math.cpp.s
+
+src/Ship.o: src/Ship.cpp.o
+
+.PHONY : src/Ship.o
+
+# target to build an object file
+src/Ship.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Ship.cpp.o
+.PHONY : src/Ship.cpp.o
+
+src/Ship.i: src/Ship.cpp.i
+
+.PHONY : src/Ship.i
+
+# target to preprocess a source file
+src/Ship.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Ship.cpp.i
+.PHONY : src/Ship.cpp.i
+
+src/Ship.s: src/Ship.cpp.s
+
+.PHONY : src/Ship.s
+
+# target to generate assembly for a file
+src/Ship.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Ship.cpp.s
+.PHONY : src/Ship.cpp.s
+
+src/SpriteComponent.o: src/SpriteComponent.cpp.o
+
+.PHONY : src/SpriteComponent.o
+
+# target to build an object file
+src/SpriteComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o
+.PHONY : src/SpriteComponent.cpp.o
+
+src/SpriteComponent.i: src/SpriteComponent.cpp.i
+
+.PHONY : src/SpriteComponent.i
+
+# target to preprocess a source file
+src/SpriteComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.i
+.PHONY : src/SpriteComponent.cpp.i
+
+src/SpriteComponent.s: src/SpriteComponent.cpp.s
+
+.PHONY : src/SpriteComponent.s
+
+# target to generate assembly for a file
+src/SpriteComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.s
+.PHONY : src/SpriteComponent.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -156,7 +345,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -165,7 +354,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +363,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Pong.dir/build.make CMakeFiles/Pong.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -184,11 +373,32 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Pong"
+	@echo "... SpaceShip"
 	@echo "... edit_cache"
+	@echo "... src/Actor.o"
+	@echo "... src/Actor.i"
+	@echo "... src/Actor.s"
+	@echo "... src/AnimSpriteComponent.o"
+	@echo "... src/AnimSpriteComponent.i"
+	@echo "... src/AnimSpriteComponent.s"
+	@echo "... src/BGSpriteComponent.o"
+	@echo "... src/BGSpriteComponent.i"
+	@echo "... src/BGSpriteComponent.s"
+	@echo "... src/Component.o"
+	@echo "... src/Component.i"
+	@echo "... src/Component.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/Math.o"
+	@echo "... src/Math.i"
+	@echo "... src/Math.s"
+	@echo "... src/Ship.o"
+	@echo "... src/Ship.i"
+	@echo "... src/Ship.s"
+	@echo "... src/SpriteComponent.o"
+	@echo "... src/SpriteComponent.i"
+	@echo "... src/SpriteComponent.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

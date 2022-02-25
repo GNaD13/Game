@@ -8,12 +8,13 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../Dependencies/sdl-cmake/FindSDL2.cmake"
+  "../Dependencies/sdl-cmake/FindSDL2_image.cmake"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
-  "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
@@ -22,6 +23,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCompilerIdDetection.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeConfigurableFile.in"
   "/usr/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake"
@@ -40,6 +42,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeUnixFindMake.cmake"
+  "/usr/share/cmake-3.10/Modules/CheckFunctionExists.c"
+  "/usr/share/cmake-3.10/Modules/CheckIncludeFile.c.in"
+  "/usr/share/cmake-3.10/Modules/CheckIncludeFile.cmake"
+  "/usr/share/cmake-3.10/Modules/CheckLibraryExists.cmake"
+  "/usr/share/cmake-3.10/Modules/CheckSymbolExists.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
@@ -88,6 +95,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+  "/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.10/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.10/Modules/FindThreads.cmake"
   "/usr/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-Determine-CXX.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-C.cmake"
@@ -115,5 +125,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Pong.dir/DependInfo.cmake"
+  "CMakeFiles/SpaceShip.dir/DependInfo.cmake"
   )

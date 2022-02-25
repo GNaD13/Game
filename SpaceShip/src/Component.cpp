@@ -5,7 +5,7 @@ Component::Component(Actor* owner, int updateOrder)
     :   mOwner(owner),
         mUpdateOrder(mUpdateOrder)
 {
-
+    mOwner->AddComponents(this);
 }
 
 Component::~Component()

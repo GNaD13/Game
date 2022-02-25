@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Pong.dir/src/Game.cpp.o CMakeFiles/Pong.dir/src/main.cpp.o  -o Pong -lSDL2 

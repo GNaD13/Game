@@ -11,7 +11,7 @@ public:
 
     virtual void Update(float deltaTime) {};
     int GetUpdateOrder() const { return mUpdateOrder; }
-private:
+protected:
 // Owning Actor
     Actor* mOwner;
     int mUpdateOrder;
