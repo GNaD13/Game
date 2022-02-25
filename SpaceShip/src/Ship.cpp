@@ -12,7 +12,7 @@ Ship::Ship(Game* game)
                                            GetGame()->GetTexture("../Assets/Ship02.png"),
                                            GetGame()->GetTexture("../Assets/Ship03.png"),
                                            GetGame()->GetTexture("../Assets/Ship04.png") };
-    anim->SetAnimTextures(textures);
+    anim->SetAnimTextures(textures, AnimSpriteComponent::AnimType::LOOPING);
 }
 
 Ship::~Ship()

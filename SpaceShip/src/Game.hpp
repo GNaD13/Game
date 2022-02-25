@@ -7,6 +7,7 @@
 #include <unordered_map>
 #include "SpriteComponent.hpp"
 #include "Ship.hpp"
+#include "Character.hpp"
 
 class Actor;
 
@@ -47,7 +48,7 @@ private:
 
     bool mIsRunning;
 
-    Ship* mShip;
+    Character* mShip;
 };
 
 #endif

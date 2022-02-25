@@ -165,7 +165,7 @@ void Game::GenerateOutput()
 
 void Game::LoadData()
 {
-    mShip = new Ship(this);
+    mShip = new Character(this);
     mShip->SetPosition(Vector2(100.0f, 384.0f));
 	mShip->SetScale(1.5f);
     mShip->SetRotation(0);
@@ -210,6 +210,7 @@ SDL_Texture* Game::GetTexture(const std::string& filename)
     if(iter != mTextures.end())
     {
         texture = iter->second;
+        return texture;
     }
     else
     {

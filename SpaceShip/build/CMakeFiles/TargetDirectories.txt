@@ -1,3 +1,3 @@
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/rebuild_cache.dir
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/edit_cache.dir
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/rebuild_cache.dir
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/edit_cache.dir

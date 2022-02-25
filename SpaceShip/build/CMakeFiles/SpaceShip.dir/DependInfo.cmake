@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Actor.cpp.o"
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/AnimSpriteComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o"
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/BGSpriteComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o"
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Component.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Component.cpp.o"
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Game.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Game.cpp.o"
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Math.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Math.cpp.o"
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Ship.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Ship.cpp.o"
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/SpriteComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o"
-  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/main.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/main.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Actor.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/AnimSpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Character.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Character.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Component.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Component.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Game.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Math.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Math.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Ship.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Ship.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/main.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

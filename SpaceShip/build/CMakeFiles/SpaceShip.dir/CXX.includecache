@@ -6,65 +6,81 @@
 
 #IncludeRegexTransform: 
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.cpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Component.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
 vector
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/AnimSpriteComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/AnimSpriteComponent.cpp
 AnimSpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/AnimSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/AnimSpriteComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/AnimSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/AnimSpriteComponent.hpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.hpp
 vector
 -
+unordered_map
+-
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/BGSpriteComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.cpp
 BGSpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/BGSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
 iostream
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/BGSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.hpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.hpp
 vector
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Component.cpp
-Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Component.hpp
-Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.hpp
-
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Component.hpp
-
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Game.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Character.cpp
+Character.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Character.hpp
+AnimSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/AnimSpriteComponent.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Character.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
+stdint.h
+-
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Component.cpp
+Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Component.hpp
+Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Component.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.cpp
+Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
+Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
 algorithm
 -
 BGSpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/BGSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
 vector
 -
 SDL2/SDL.h
@@ -74,15 +90,17 @@ SDL2/SDL_image.h
 unordered_map
 -
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.hpp
 Ship.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Ship.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Ship.hpp
+Character.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Character.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Math.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Math.cpp
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Math.h
 cmath
 -
 memory.h
@@ -90,37 +108,37 @@ memory.h
 limits
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Ship.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Ship.cpp
 Ship.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Ship.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Ship.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
 AnimSpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/AnimSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/AnimSpriteComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Ship.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Ship.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
 stdint.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/SpriteComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.cpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Component.hpp
 SDL2/SDL.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/main.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/main.cpp
 iostream
 -
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
 

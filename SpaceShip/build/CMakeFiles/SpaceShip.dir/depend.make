@@ -3,6 +3,7 @@
 
 CMakeFiles/SpaceShip.dir/src/Actor.cpp.o: ../src/Actor.cpp
 CMakeFiles/SpaceShip.dir/src/Actor.cpp.o: ../src/Actor.hpp
+CMakeFiles/SpaceShip.dir/src/Actor.cpp.o: ../src/Character.hpp
 CMakeFiles/SpaceShip.dir/src/Actor.cpp.o: ../src/Component.hpp
 CMakeFiles/SpaceShip.dir/src/Actor.cpp.o: ../src/Game.hpp
 CMakeFiles/SpaceShip.dir/src/Actor.cpp.o: ../src/Math.h
@@ -21,6 +22,16 @@ CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o: ../src/Component.hpp
 CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o: ../src/Math.h
 CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o: ../src/SpriteComponent.hpp
 
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/Actor.hpp
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/AnimSpriteComponent.hpp
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/Character.cpp
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/Character.hpp
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/Component.hpp
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/Game.hpp
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/Math.h
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/Ship.hpp
+CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/SpriteComponent.hpp
+
 CMakeFiles/SpaceShip.dir/src/Component.cpp.o: ../src/Actor.hpp
 CMakeFiles/SpaceShip.dir/src/Component.cpp.o: ../src/Component.cpp
 CMakeFiles/SpaceShip.dir/src/Component.cpp.o: ../src/Component.hpp
@@ -28,6 +39,7 @@ CMakeFiles/SpaceShip.dir/src/Component.cpp.o: ../src/Math.h
 
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Actor.hpp
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/BGSpriteComponent.hpp
+CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Character.hpp
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Component.hpp
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Game.cpp
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Game.hpp
@@ -40,6 +52,7 @@ CMakeFiles/SpaceShip.dir/src/Math.cpp.o: ../src/Math.h
 
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/Actor.hpp
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/AnimSpriteComponent.hpp
+CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/Character.hpp
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/Component.hpp
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/Game.hpp
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/Math.h
@@ -48,6 +61,7 @@ CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/Ship.hpp
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/SpriteComponent.hpp
 
 CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: ../src/Actor.hpp
+CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: ../src/Character.hpp
 CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: ../src/Component.hpp
 CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: ../src/Game.hpp
 CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: ../src/Math.h
@@ -56,6 +70,7 @@ CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: ../src/SpriteComponent.cpp
 CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: ../src/SpriteComponent.hpp
 
 CMakeFiles/SpaceShip.dir/src/main.cpp.o: ../src/Actor.hpp
+CMakeFiles/SpaceShip.dir/src/main.cpp.o: ../src/Character.hpp
 CMakeFiles/SpaceShip.dir/src/main.cpp.o: ../src/Component.hpp
 CMakeFiles/SpaceShip.dir/src/main.cpp.o: ../src/Game.hpp
 CMakeFiles/SpaceShip.dir/src/main.cpp.o: ../src/Math.h

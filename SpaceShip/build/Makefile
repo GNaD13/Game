@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip
+CMAKE_SOURCE_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build
+CMAKE_BINARY_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/SpaceShip/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -203,6 +203,33 @@ src/BGSpriteComponent.s: src/BGSpriteComponent.cpp.s
 src/BGSpriteComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.s
 .PHONY : src/BGSpriteComponent.cpp.s
+
+src/Character.o: src/Character.cpp.o
+
+.PHONY : src/Character.o
+
+# target to build an object file
+src/Character.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Character.cpp.o
+.PHONY : src/Character.cpp.o
+
+src/Character.i: src/Character.cpp.i
+
+.PHONY : src/Character.i
+
+# target to preprocess a source file
+src/Character.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Character.cpp.i
+.PHONY : src/Character.cpp.i
+
+src/Character.s: src/Character.cpp.s
+
+.PHONY : src/Character.s
+
+# target to generate assembly for a file
+src/Character.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Character.cpp.s
+.PHONY : src/Character.cpp.s
 
 src/Component.o: src/Component.cpp.o
 
@@ -384,6 +411,9 @@ help:
 	@echo "... src/BGSpriteComponent.o"
 	@echo "... src/BGSpriteComponent.i"
 	@echo "... src/BGSpriteComponent.s"
+	@echo "... src/Character.o"
+	@echo "... src/Character.i"
+	@echo "... src/Character.s"
 	@echo "... src/Component.o"
 	@echo "... src/Component.i"
 	@echo "... src/Component.s"
