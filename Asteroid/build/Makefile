@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid
+CMAKE_SOURCE_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build
+CMAKE_BINARY_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -231,6 +231,33 @@ src/BGSpriteComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/BGSpriteComponent.cpp.s
 .PHONY : src/BGSpriteComponent.cpp.s
 
+src/CircleComponent.o: src/CircleComponent.cpp.o
+
+.PHONY : src/CircleComponent.o
+
+# target to build an object file
+src/CircleComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/CircleComponent.cpp.o
+.PHONY : src/CircleComponent.cpp.o
+
+src/CircleComponent.i: src/CircleComponent.cpp.i
+
+.PHONY : src/CircleComponent.i
+
+# target to preprocess a source file
+src/CircleComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/CircleComponent.cpp.i
+.PHONY : src/CircleComponent.cpp.i
+
+src/CircleComponent.s: src/CircleComponent.cpp.s
+
+.PHONY : src/CircleComponent.s
+
+# target to generate assembly for a file
+src/CircleComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/CircleComponent.cpp.s
+.PHONY : src/CircleComponent.cpp.s
+
 src/Component.o: src/Component.cpp.o
 
 .PHONY : src/Component.o
@@ -284,6 +311,60 @@ src/Game.s: src/Game.cpp.s
 src/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
+
+src/InputComponent.o: src/InputComponent.cpp.o
+
+.PHONY : src/InputComponent.o
+
+# target to build an object file
+src/InputComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/InputComponent.cpp.o
+.PHONY : src/InputComponent.cpp.o
+
+src/InputComponent.i: src/InputComponent.cpp.i
+
+.PHONY : src/InputComponent.i
+
+# target to preprocess a source file
+src/InputComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/InputComponent.cpp.i
+.PHONY : src/InputComponent.cpp.i
+
+src/InputComponent.s: src/InputComponent.cpp.s
+
+.PHONY : src/InputComponent.s
+
+# target to generate assembly for a file
+src/InputComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/InputComponent.cpp.s
+.PHONY : src/InputComponent.cpp.s
+
+src/Laser.o: src/Laser.cpp.o
+
+.PHONY : src/Laser.o
+
+# target to build an object file
+src/Laser.cpp.o:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Laser.cpp.o
+.PHONY : src/Laser.cpp.o
+
+src/Laser.i: src/Laser.cpp.i
+
+.PHONY : src/Laser.i
+
+# target to preprocess a source file
+src/Laser.cpp.i:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Laser.cpp.i
+.PHONY : src/Laser.cpp.i
+
+src/Laser.s: src/Laser.cpp.s
+
+.PHONY : src/Laser.s
+
+# target to generate assembly for a file
+src/Laser.cpp.s:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Laser.cpp.s
+.PHONY : src/Laser.cpp.s
 
 src/Math.o: src/Math.cpp.o
 
@@ -366,6 +447,33 @@ src/Random.cpp.s:
 	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Random.cpp.s
 .PHONY : src/Random.cpp.s
 
+src/Ship.o: src/Ship.cpp.o
+
+.PHONY : src/Ship.o
+
+# target to build an object file
+src/Ship.cpp.o:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Ship.cpp.o
+.PHONY : src/Ship.cpp.o
+
+src/Ship.i: src/Ship.cpp.i
+
+.PHONY : src/Ship.i
+
+# target to preprocess a source file
+src/Ship.cpp.i:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Ship.cpp.i
+.PHONY : src/Ship.cpp.i
+
+src/Ship.s: src/Ship.cpp.s
+
+.PHONY : src/Ship.s
+
+# target to generate assembly for a file
+src/Ship.cpp.s:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Ship.cpp.s
+.PHONY : src/Ship.cpp.s
+
 src/SpriteComponent.o: src/SpriteComponent.cpp.o
 
 .PHONY : src/SpriteComponent.o
@@ -441,12 +549,21 @@ help:
 	@echo "... src/BGSpriteComponent.o"
 	@echo "... src/BGSpriteComponent.i"
 	@echo "... src/BGSpriteComponent.s"
+	@echo "... src/CircleComponent.o"
+	@echo "... src/CircleComponent.i"
+	@echo "... src/CircleComponent.s"
 	@echo "... src/Component.o"
 	@echo "... src/Component.i"
 	@echo "... src/Component.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/InputComponent.o"
+	@echo "... src/InputComponent.i"
+	@echo "... src/InputComponent.s"
+	@echo "... src/Laser.o"
+	@echo "... src/Laser.i"
+	@echo "... src/Laser.s"
 	@echo "... src/Math.o"
 	@echo "... src/Math.i"
 	@echo "... src/Math.s"
@@ -456,6 +573,9 @@ help:
 	@echo "... src/Random.o"
 	@echo "... src/Random.i"
 	@echo "... src/Random.s"
+	@echo "... src/Ship.o"
+	@echo "... src/Ship.i"
+	@echo "... src/Ship.s"
 	@echo "... src/SpriteComponent.o"
 	@echo "... src/SpriteComponent.i"
 	@echo "... src/SpriteComponent.s"

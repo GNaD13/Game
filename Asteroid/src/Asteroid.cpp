@@ -2,6 +2,7 @@
 #include "Game.hpp"
 #include "SpriteComponent.hpp"
 #include "MoveComponent.hpp"
+#include "CircleComponent.hpp"
 #include "Random.h"
 
 Asteroid::Asteroid(Game* game)
@@ -12,17 +13,31 @@ Asteroid::Asteroid(Game* game)
     SetPosition(randPos);
     SetScale(1.0f);
     SetRotation(randRotation);
+    SetState(EActive);
 
-    SpriteComponent* sprite = new SpriteComponent(this);
+    SpriteComponent* sc = new SpriteComponent(this);
     SDL_Texture* text = GetGame()->GetTexture("../Assets/Asteroid.png");
-    sprite->SetTexture(text);
+    sc->SetTexture(text);
 
-    // MoveComponent* move = new MoveComponent(this);
-    // move->SetForwardSpeed(100.0f);
-    // move->SetAngularSpeed(30.0f);
+    MoveComponent* mc = new MoveComponent(this);
+    mc->SetForwardSpeed(300.0f);
+    mc->SetAngularSpeed(0.5f);
+
+    mCircle = new CircleComponent(this);
+    mCircle->SetRadius(40.0f);
+
+    GetGame()->AddAsteroid(this);
 }
 
 Asteroid::~Asteroid()
 {
+    GetGame()->RemoveAsteroid(this);
+}
 
+void Asteroid::UpdateActor(float deltaTime)
+{
+    Vector2 pos = GetPosition();
+    pos.x = ((static_cast<int>(pos.x) + SCREEN_WIDTH) % SCREEN_WIDTH);
+    pos.y = ((static_cast<int>(pos.y) + SCREEN_HEIGHT) % SCREEN_HEIGHT);
+    SetPosition(pos);
 }

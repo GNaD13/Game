@@ -1,9 +1,11 @@
 #include "Actor.hpp"
 #include "Game.hpp"
 #include "Component.hpp"
+#include <algorithm>
 
 Actor::Actor(Game* game)
-    : mGame(game)
+    :   mGame(game),
+        mState(EActive)
 {
     mGame->AddActor(this);
 }
@@ -19,8 +21,11 @@ Actor::~Actor()
 
 void Actor::Update(float deltaTime)
 {
-    UpdateComponents(deltaTime);
-    UpdateActor(deltaTime);
+    if(mState == EActive)
+    {
+        UpdateComponents(deltaTime);
+        UpdateActor(deltaTime);
+    }
 }
 
 void Actor::UpdateComponents(float deltaTime)
@@ -28,6 +33,18 @@ void Actor::UpdateComponents(float deltaTime)
     for(auto component : mComponents)
     {
         component->Update(deltaTime);
+    }
+}
+
+void Actor::ProcessInput(const uint8_t* keyState)
+{
+    if(mState == EActive)
+    {
+        for(auto component : mComponents)
+        {
+            component->ProcessInput(keyState);
+        }
+        ActorInput(keyState);
     }
 }
 
@@ -47,5 +64,9 @@ void Actor::AddComponents(Component* component)
 
 void Actor::RemoveComponents(Component* component)
 {
-
+    auto iter = std::find(mComponents.begin(), mComponents.end(), component);
+    if(iter != mComponents.end())
+    {
+        mComponents.erase(iter);
+    }
 }

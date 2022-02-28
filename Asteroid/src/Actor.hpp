@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "Math.h"
+#include <stdint.h>
 
 class Game;
 class Component;
@@ -24,12 +25,15 @@ public:
     void UpdateComponents(float deltaTime);
     virtual void UpdateActor(float deltaTime) {}
 
+    void ProcessInput(const uint8_t* keyState);
+    virtual void ActorInput(const uint8_t* keyState) {}
+
     // Get/Set function
     State GetState() const { return mState; }
     void SetState(State state) { mState = state; }
 
-    Vector2 GetPosition() const { return mPosition; }
-    void SetPosition(Vector2 position) { mPosition = position; }
+    const Vector2& GetPosition() const { return mPosition; }
+    void SetPosition(const Vector2& position) { mPosition = position; }
 
     float GetScale() const { return mScale; }
     void SetScale(float scale) { mScale = scale; }

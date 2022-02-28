@@ -1,3 +1,3 @@
-/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/rebuild_cache.dir
-/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir
-/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/edit_cache.dir
+/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/rebuild_cache.dir
+/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir
+/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/edit_cache.dir

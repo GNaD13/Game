@@ -30,7 +30,7 @@ bool Game::Initialize()
     }
 
     // Create Window
-    mWindow = SDL_CreateWindow("SpaceShip", 100, 100, 1024, 768, 0);
+    mWindow = SDL_CreateWindow("SpaceShip", 100, 100, SCREEN_WIDTH, SCREEN_HEIGHT, 0);
     if(!mWindow)
     {
         SDL_Log("Failed to create window: %s", SDL_GetError());
@@ -101,6 +101,13 @@ void Game::ProcessInput()
     {
         mIsRunning = false;
     }
+
+    mIsUpdatingActors = true;
+    for(auto actor : mActors)
+    {
+        actor->ProcessInput(state);
+    }
+    mIsUpdatingActors = false;
 }
 
 void Game::UpdateGame()
@@ -164,9 +171,34 @@ void Game::GenerateOutput()
 
 void Game::LoadData()
 {
+    mShip = new Ship(this);
+
     const int numAsteroids = 20;
     for(int i = 0; i < numAsteroids; i++)
+    {
         new Asteroid(this);
+    }
+    
+    Actor* temp = new Actor(this);
+
+    temp->SetPosition(Vector2(SCREEN_WIDTH/2.0f, SCREEN_HEIGHT/2));
+    temp->SetRotation(0.0f);
+
+    BGSpriteComponent* bg = new BGSpriteComponent(temp);
+    bg->SetScreenSize(Vector2(SCREEN_WIDTH, SCREEN_HEIGHT));
+    std::vector<SDL_Texture*> tex = { GetTexture("../Assets/Farback01.png"),
+                                      GetTexture("../Assets/Farback02.png")
+                                    };
+    bg->SetBGTextures(tex);
+    bg->SetScrollSpeed(-100.0f);
+
+    bg = new BGSpriteComponent(temp, 20);
+    bg->SetScreenSize(Vector2(SCREEN_WIDTH, SCREEN_HEIGHT));
+    tex = { GetTexture("../Assets/Stars.png"),
+            GetTexture("../Assets/Stars.png")
+          };
+    bg->SetBGTextures(tex);
+    bg->SetScrollSpeed(-200.0f);
 }
 
 void Game::UnloadData()
@@ -190,7 +222,6 @@ SDL_Texture* Game::GetTexture(const std::string& filename)
     if(iter != mTextures.end())
     {
         texture = iter->second;
-        return texture;
     }
     else
     {
@@ -208,9 +239,9 @@ SDL_Texture* Game::GetTexture(const std::string& filename)
             SDL_Log("Failed to convert surface to texture for %s", filename.c_str());
             return nullptr;
         }
-
-        return texture;
+        mTextures.emplace(filename.c_str(), texture);
     }
+    return texture;
 }
 
 void Game::AddActor(Actor* actor)
@@ -228,22 +259,18 @@ void Game::AddActor(Actor* actor)
 void Game::RemoveActor(Actor* actor)
 {
     // Is actor in PendingActor?
+    auto iter = std::find(mPendingActors.begin(), mPendingActors.end(), actor);
+    if(iter != mPendingActors.end())
     {
-        auto iter = std::find(mPendingActors.begin(), mPendingActors.end(), actor);
-        if(iter != mPendingActors.end())
-        {
-            std::iter_swap(iter, mPendingActors.end() - 1);
-            mPendingActors.pop_back();
-        }
+        std::iter_swap(iter, mPendingActors.end() - 1);
+        mPendingActors.pop_back();
     }
     // Is actor in Actor?
+    iter = std::find(mActors.begin(), mActors.end(), actor);
+    if(iter != mActors.end())
     {
-        auto iter = std::find(mActors.begin(), mActors.end(), actor);
-        if(iter != mActors.end())
-        {
-            std::iter_swap(iter, mActors.end() - 1);
-            mActors.pop_back();
-        }
+        std::iter_swap(iter, mActors.end() - 1);
+        mActors.pop_back();
     }
 }
 
@@ -267,6 +294,20 @@ void Game::RemoveSprite(SpriteComponent* sprite)
     if(iter != mSprites.end())
     {
         mSprites.erase(iter);
+    }
+}
+
+void Game::AddAsteroid(Asteroid* ast)
+{
+    mAsteroid.emplace_back(ast);
+}
+
+void Game::RemoveAsteroid(Asteroid* ast)
+{
+    auto iter = std::find(mAsteroid.begin(), mAsteroid.end(), ast);
+    if(iter != mAsteroid.end())
+    {
+        mAsteroid.erase(iter);
     }
 }
 

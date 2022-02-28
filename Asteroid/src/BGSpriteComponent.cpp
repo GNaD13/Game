@@ -21,7 +21,7 @@ void BGSpriteComponent::Update(float deltaTime)
         bg.mOffset.x += mScrollSpeed * deltaTime;
         if(bg.mOffset.x < -mScreenSize.x)
         {
-            bg.mOffset.x = (mBGTextures.size() - 1) * mScreenSize.x;
+            bg.mOffset.x = (mBGTextures.size() - 1) * mScreenSize.x - 1;
         }
         // std::cout << "-------------" << bg.mOffset.x << "-------------";
     }

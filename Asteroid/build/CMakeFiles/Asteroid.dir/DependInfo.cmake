@@ -4,17 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Actor.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/AnimSpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/AnimSpriteComponent.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Asteroid.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Asteroid.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/BGSpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/BGSpriteComponent.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Component.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Component.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Game.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Math.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Math.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/MoveComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Random.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Random.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o"
-  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/main.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/main.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Actor.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/AnimSpriteComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/AnimSpriteComponent.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Asteroid.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Asteroid.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/BGSpriteComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/BGSpriteComponent.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/CircleComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/CircleComponent.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Component.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Component.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Game.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/InputComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/InputComponent.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Laser.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Laser.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Math.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Math.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/MoveComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Random.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Random.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Ship.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/Ship.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o"
+  "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/main.cpp" "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/build/CMakeFiles/Asteroid.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

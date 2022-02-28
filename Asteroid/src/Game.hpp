@@ -6,6 +6,11 @@
 #include <SDL2/SDL_image.h>
 #include <unordered_map>
 #include "SpriteComponent.hpp"
+#include "Ship.hpp"
+#include "Asteroid.hpp"
+
+#define SCREEN_WIDTH    1024
+#define SCREEN_HEIGHT   768
 
 
 class Actor;
@@ -26,6 +31,11 @@ public:
     void RemoveSprite(SpriteComponent* sprite);
 
     SDL_Texture* GetTexture(const std::string& filename);
+
+    /////
+    std::vector<Asteroid*> GetAsteroid() const { return mAsteroid; }
+    void AddAsteroid(Asteroid* ast);
+    void RemoveAsteroid(Asteroid* ast);
 private:
     void ProcessInput();
     void UpdateGame();
@@ -46,6 +56,9 @@ private:
     bool mIsUpdatingActors;
 
     bool mIsRunning;
+
+    Ship* mShip;
+    std::vector<Asteroid*> mAsteroid;
 };
 
 #endif
