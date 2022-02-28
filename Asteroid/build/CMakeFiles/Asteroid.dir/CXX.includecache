@@ -6,107 +6,107 @@
 
 #IncludeRegexTransform: 
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.cpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Component.hpp
 algorithm
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 vector
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Math.h
 stdint.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/AnimSpriteComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/AnimSpriteComponent.cpp
 AnimSpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/AnimSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/AnimSpriteComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/AnimSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/AnimSpriteComponent.hpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.hpp
 vector
 -
 unordered_map
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Asteroid.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Asteroid.cpp
 Asteroid.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Asteroid.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Asteroid.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.hpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.hpp
 MoveComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/MoveComponent.hpp
 CircleComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/CircleComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/CircleComponent.hpp
 Random.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Random.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Random.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Asteroid.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Asteroid.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/BGSpriteComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/BGSpriteComponent.cpp
 BGSpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/BGSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/BGSpriteComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 iostream
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/BGSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/BGSpriteComponent.hpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.hpp
 vector
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/CircleComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/CircleComponent.cpp
 CircleComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/CircleComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/CircleComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 iostream
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/CircleComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/CircleComponent.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Component.hpp
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Component.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Component.cpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Component.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Component.hpp
 stdint.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.cpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 algorithm
 -
 BGSpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/BGSpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/BGSpriteComponent.hpp
 Asteroid.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Asteroid.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Asteroid.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.hpp
 vector
 -
 SDL2/SDL.h
@@ -116,45 +116,45 @@ SDL2/SDL_image.h
 unordered_map
 -
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.hpp
 Ship.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Ship.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Ship.hpp
 Asteroid.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Asteroid.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Asteroid.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/InputComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/InputComponent.cpp
 InputComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/InputComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/InputComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/InputComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/InputComponent.hpp
 MoveComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/MoveComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Laser.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Laser.cpp
 Laser.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Laser.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Laser.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.hpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.hpp
 MoveComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/MoveComponent.hpp
 CircleComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/CircleComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/CircleComponent.hpp
 Asteroid.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Asteroid.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Asteroid.hpp
 iostream
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Laser.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Laser.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Math.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Math.cpp
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Math.h
 cmath
 -
 memory.h
@@ -162,61 +162,61 @@ memory.h
 limits
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/MoveComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/MoveComponent.cpp
 MoveComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/MoveComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/MoveComponent.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Component.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Random.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Random.cpp
 Random.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Random.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Random.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Random.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Random.h
 random
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Ship.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Ship.cpp
 Ship.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Ship.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Ship.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.hpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.hpp
 InputComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/InputComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/InputComponent.hpp
 Laser.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Laser.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Laser.hpp
 CircleComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/CircleComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/CircleComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Ship.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Ship.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.cpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Actor.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/SpriteComponent.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Component.hpp
 SDL2/SDL.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/main.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/main.cpp
 iostream
 -
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/Asteroid/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Asteroid/src/Game.hpp
 
