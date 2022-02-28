@@ -105,9 +105,33 @@ CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o.provides: CMakeFiles/Spac
 CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o.provides.build: CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o
 
 
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Asteroid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Asteroid.cpp
+
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Asteroid.cpp > CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.i
+
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Asteroid.cpp -o CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.s
+
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o.requires:
+
+.PHONY : CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o.requires
+
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o.provides: CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o.provides.build
+.PHONY : CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o.provides
+
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o.provides.build: CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o
+
+
 CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
 CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o: ../src/BGSpriteComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.cpp
 
 CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/SpaceShip.dir/src/Character.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
 CMakeFiles/SpaceShip.dir/src/Character.cpp.o: ../src/Character.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SpaceShip.dir/src/Character.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SpaceShip.dir/src/Character.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/Character.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Character.cpp
 
 CMakeFiles/SpaceShip.dir/src/Character.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/SpaceShip.dir/src/Character.cpp.o.provides.build: CMakeFiles/SpaceShi
 
 CMakeFiles/SpaceShip.dir/src/Component.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
 CMakeFiles/SpaceShip.dir/src/Component.cpp.o: ../src/Component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SpaceShip.dir/src/Component.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SpaceShip.dir/src/Component.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/Component.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Component.cpp
 
 CMakeFiles/SpaceShip.dir/src/Component.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/SpaceShip.dir/src/Component.cpp.o.provides.build: CMakeFiles/SpaceShi
 
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SpaceShip.dir/src/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SpaceShip.dir/src/Game.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/Game.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.cpp
 
 CMakeFiles/SpaceShip.dir/src/Game.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/SpaceShip.dir/src/Game.cpp.o.provides.build: CMakeFiles/SpaceShip.dir
 
 CMakeFiles/SpaceShip.dir/src/Math.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
 CMakeFiles/SpaceShip.dir/src/Math.cpp.o: ../src/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SpaceShip.dir/src/Math.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SpaceShip.dir/src/Math.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/Math.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Math.cpp
 
 CMakeFiles/SpaceShip.dir/src/Math.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/SpaceShip.dir/src/Math.cpp.o.provides.build: CMakeFiles/SpaceShip.dir
 
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.o: ../src/Ship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SpaceShip.dir/src/Ship.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SpaceShip.dir/src/Ship.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/Ship.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Ship.cpp
 
 CMakeFiles/SpaceShip.dir/src/Ship.cpp.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/SpaceShip.dir/src/Ship.cpp.o.provides.build: CMakeFiles/SpaceShip.dir
 
 CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
 CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o: ../src/SpriteComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.cpp
 
 CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/SpaceShip.dir/src/SpriteComponent.cpp.o.provides.build: CMakeFiles/Sp
 
 CMakeFiles/SpaceShip.dir/src/main.cpp.o: CMakeFiles/SpaceShip.dir/flags.make
 CMakeFiles/SpaceShip.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SpaceShip.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SpaceShip.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SpaceShip.dir/src/main.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/main.cpp
 
 CMakeFiles/SpaceShip.dir/src/main.cpp.i: cmake_force
@@ -301,6 +325,7 @@ CMakeFiles/SpaceShip.dir/src/main.cpp.o.provides.build: CMakeFiles/SpaceShip.dir
 SpaceShip_OBJECTS = \
 "CMakeFiles/SpaceShip.dir/src/Actor.cpp.o" \
 "CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o" \
+"CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o" \
 "CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o" \
 "CMakeFiles/SpaceShip.dir/src/Character.cpp.o" \
 "CMakeFiles/SpaceShip.dir/src/Component.cpp.o" \
@@ -315,6 +340,7 @@ SpaceShip_EXTERNAL_OBJECTS =
 
 SpaceShip: CMakeFiles/SpaceShip.dir/src/Actor.cpp.o
 SpaceShip: CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o
+SpaceShip: CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o
 SpaceShip: CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o
 SpaceShip: CMakeFiles/SpaceShip.dir/src/Character.cpp.o
 SpaceShip: CMakeFiles/SpaceShip.dir/src/Component.cpp.o
@@ -328,7 +354,7 @@ SpaceShip: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 SpaceShip: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 SpaceShip: /usr/lib/x86_64-linux-gnu/libSDL2.so
 SpaceShip: CMakeFiles/SpaceShip.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SpaceShip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable SpaceShip"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SpaceShip.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -338,6 +364,7 @@ CMakeFiles/SpaceShip.dir/build: SpaceShip
 
 CMakeFiles/SpaceShip.dir/requires: CMakeFiles/SpaceShip.dir/src/Actor.cpp.o.requires
 CMakeFiles/SpaceShip.dir/requires: CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o.requires
+CMakeFiles/SpaceShip.dir/requires: CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o.requires
 CMakeFiles/SpaceShip.dir/requires: CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o.requires
 CMakeFiles/SpaceShip.dir/requires: CMakeFiles/SpaceShip.dir/src/Character.cpp.o.requires
 CMakeFiles/SpaceShip.dir/requires: CMakeFiles/SpaceShip.dir/src/Component.cpp.o.requires

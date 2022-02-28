@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Actor.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/AnimSpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Asteroid.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Character.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Character.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Component.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/build/CMakeFiles/SpaceShip.dir/src/Component.cpp.o"

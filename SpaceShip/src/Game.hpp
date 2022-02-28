@@ -48,7 +48,7 @@ private:
 
     bool mIsRunning;
 
-    Character* mShip;
+    Ship* mShip;
 };
 
 #endif

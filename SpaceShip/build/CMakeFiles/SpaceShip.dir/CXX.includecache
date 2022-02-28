@@ -32,6 +32,18 @@ vector
 unordered_map
 -
 
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Asteroid.cpp
+Asteroid.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Asteroid.hpp
+SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/SpriteComponent.hpp
+Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Asteroid.hpp
+Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Actor.hpp
+
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.cpp
 BGSpriteComponent.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.hpp
@@ -79,6 +91,8 @@ algorithm
 -
 BGSpriteComponent.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/BGSpriteComponent.hpp
+Asteroid.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Asteroid.hpp
 
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/src/Game.hpp
 vector

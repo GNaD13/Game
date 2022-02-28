@@ -15,6 +15,16 @@ CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o: ../src/AnimSpriteCompone
 CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o: ../src/Component.hpp
 CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o: ../src/SpriteComponent.hpp
 
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Actor.hpp
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Asteroid.cpp
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Asteroid.hpp
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Character.hpp
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Component.hpp
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Game.hpp
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Math.h
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/Ship.hpp
+CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o: ../src/SpriteComponent.hpp
+
 CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o: ../src/Actor.hpp
 CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o: ../src/BGSpriteComponent.cpp
 CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o: ../src/BGSpriteComponent.hpp
@@ -38,6 +48,7 @@ CMakeFiles/SpaceShip.dir/src/Component.cpp.o: ../src/Component.hpp
 CMakeFiles/SpaceShip.dir/src/Component.cpp.o: ../src/Math.h
 
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Actor.hpp
+CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Asteroid.hpp
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/BGSpriteComponent.hpp
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Character.hpp
 CMakeFiles/SpaceShip.dir/src/Game.cpp.o: ../src/Component.hpp

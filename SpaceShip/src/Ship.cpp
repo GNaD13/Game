@@ -7,12 +7,16 @@ Ship::Ship(Game* game)
         mRightSpeed(0.0f),
         mDownSpeed(0.0f)
 {
-    AnimSpriteComponent* anim = new AnimSpriteComponent(this);
-    std::vector<SDL_Texture*> textures = { GetGame()->GetTexture("../Assets/Ship01.png"),
-                                           GetGame()->GetTexture("../Assets/Ship02.png"),
-                                           GetGame()->GetTexture("../Assets/Ship03.png"),
-                                           GetGame()->GetTexture("../Assets/Ship04.png") };
-    anim->SetAnimTextures(textures, AnimSpriteComponent::AnimType::LOOPING);
+    // AnimSpriteComponent* anim = new AnimSpriteComponent(this);
+    // std::vector<SDL_Texture*> textures = { GetGame()->GetTexture("../Assets/Ship01.png"),
+    //                                        GetGame()->GetTexture("../Assets/Ship02.png"),
+    //                                        GetGame()->GetTexture("../Assets/Ship03.png"),
+    //                                        GetGame()->GetTexture("../Assets/Ship04.png") };
+    // anim->SetAnimTextures(textures, AnimSpriteComponent::AnimType::LOOPING);
+    SetPosition(Vector2(100.0f, 384.0f));
+    SpriteComponent* sprite = new SpriteComponent(this);
+    SDL_Texture* text = GetGame()->GetTexture("/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/SpaceShip/Assets/Enemy01.png");
+    sprite->SetTexture(text);
 }
 
 Ship::~Ship()

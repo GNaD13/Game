@@ -2,6 +2,7 @@
 #include "Actor.hpp"
 #include <algorithm>
 #include "BGSpriteComponent.hpp"
+#include "Asteroid.hpp"
 
 Game::Game()
     :   mWindow(nullptr),
@@ -165,28 +166,33 @@ void Game::GenerateOutput()
 
 void Game::LoadData()
 {
-    mShip = new Character(this);
+    mShip = new Ship(this);
     mShip->SetPosition(Vector2(100.0f, 384.0f));
 	mShip->SetScale(1.5f);
     mShip->SetRotation(0);
 
-    Actor* temp = new Actor(this);
-    temp->SetPosition(Vector2(512.0f, 384.0f));
+    Asteroid* as = new Asteroid(this);
+    as->SetPosition(Vector2(512.0f, 384.0f));
+	as->SetScale(1.5f);
+    as->SetRotation(0);
 
-    // Set far back ground
-    BGSpriteComponent* bg = new BGSpriteComponent(temp);
-    bg->SetScreenSize(Vector2(1024.0f, 768.0f));
-    std::vector<SDL_Texture*> bgText = { GetTexture("../Assets/Farback01.png"),
-                                          GetTexture("../Assets/Farback02.png") };
-    bg->SetBGTextures(bgText);
-    bg->SetScrollSpeed(-100.0f);
+    // Actor* temp = new Actor(this);
+    // temp->SetPosition(Vector2(512.0f, 384.0f));
 
-    bg = new BGSpriteComponent(temp, 50);
-    bg->SetScreenSize(Vector2(1024.0f, 768.0f));
-    bgText = { GetTexture("../Assets/Stars.png"),
-		       GetTexture("../Assets/Stars.png")};
-	bg->SetBGTextures(bgText);
-	bg->SetScrollSpeed(-200.0f);
+    // // Set far back ground
+    // BGSpriteComponent* bg = new BGSpriteComponent(temp);
+    // bg->SetScreenSize(Vector2(1024.0f, 768.0f));
+    // std::vector<SDL_Texture*> bgText = { GetTexture("../Assets/Farback01.png"),
+    //                                       GetTexture("../Assets/Farback02.png") };
+    // bg->SetBGTextures(bgText);
+    // bg->SetScrollSpeed(-100.0f);
+
+    // bg = new BGSpriteComponent(temp, 50);
+    // bg->SetScreenSize(Vector2(1024.0f, 768.0f));
+    // bgText = { GetTexture("../Assets/Stars.png"),
+	// 	       GetTexture("../Assets/Stars.png")};
+	// bg->SetBGTextures(bgText);
+	// bg->SetScrollSpeed(-200.0f);
 }
 
 void Game::UnloadData()

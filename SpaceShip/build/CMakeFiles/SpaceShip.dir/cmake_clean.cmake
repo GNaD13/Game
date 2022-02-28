@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SpaceShip.dir/src/Actor.cpp.o"
   "CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.o"
+  "CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o"
   "CMakeFiles/SpaceShip.dir/src/BGSpriteComponent.cpp.o"
   "CMakeFiles/SpaceShip.dir/src/Character.cpp.o"
   "CMakeFiles/SpaceShip.dir/src/Component.cpp.o"

@@ -177,6 +177,33 @@ src/AnimSpriteComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/AnimSpriteComponent.cpp.s
 .PHONY : src/AnimSpriteComponent.cpp.s
 
+src/Asteroid.o: src/Asteroid.cpp.o
+
+.PHONY : src/Asteroid.o
+
+# target to build an object file
+src/Asteroid.cpp.o:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.o
+.PHONY : src/Asteroid.cpp.o
+
+src/Asteroid.i: src/Asteroid.cpp.i
+
+.PHONY : src/Asteroid.i
+
+# target to preprocess a source file
+src/Asteroid.cpp.i:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.i
+.PHONY : src/Asteroid.cpp.i
+
+src/Asteroid.s: src/Asteroid.cpp.s
+
+.PHONY : src/Asteroid.s
+
+# target to generate assembly for a file
+src/Asteroid.cpp.s:
+	$(MAKE) -f CMakeFiles/SpaceShip.dir/build.make CMakeFiles/SpaceShip.dir/src/Asteroid.cpp.s
+.PHONY : src/Asteroid.cpp.s
+
 src/BGSpriteComponent.o: src/BGSpriteComponent.cpp.o
 
 .PHONY : src/BGSpriteComponent.o
@@ -408,6 +435,9 @@ help:
 	@echo "... src/AnimSpriteComponent.o"
 	@echo "... src/AnimSpriteComponent.i"
 	@echo "... src/AnimSpriteComponent.s"
+	@echo "... src/Asteroid.o"
+	@echo "... src/Asteroid.i"
+	@echo "... src/Asteroid.s"
 	@echo "... src/BGSpriteComponent.o"
 	@echo "... src/BGSpriteComponent.i"
 	@echo "... src/BGSpriteComponent.s"
