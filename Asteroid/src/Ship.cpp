@@ -28,6 +28,7 @@ Ship::Ship(Game* game)
     mCircle->SetRadius(40.0f);
     
     mCooldown = 0.0f;
+    mReborn = 0.0f;
 }
 
 Ship::~Ship()
@@ -39,15 +40,29 @@ void Ship::UpdateActor(float deltaTime)
 {
     mCooldown -= deltaTime;
 
-    for(auto ast : GetGame()->GetAsteroid())
+    if(GetState() == EReborn)
     {
-        if(Intersect(*mCircle, *(ast->GetCircle())))
+        mReborn += deltaTime;
+        if(mReborn >= 2.0f)
         {
-            SetState(EDead);
-            ast->SetState(EDead);
-            break;
+            SetPosition(Vector2(SCREEN_WIDTH/2.0f, SCREEN_HEIGHT/2.0f));
+            SetRotation(0.0f);
+            SetState(EActive);
         }
+    }
+    else if(GetState() == EActive)
+    {
+        for(auto ast : GetGame()->GetAsteroid())
+        {
+            if(Intersect(*mCircle, *(ast->GetCircle())))
+            {
+                SetState(EReborn);
+                ast->SetState(EDead);
+                mReborn = 0.0f;
+                break;
+            }
 
+        }
     }
 }
 

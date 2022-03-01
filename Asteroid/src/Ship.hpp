@@ -18,6 +18,7 @@ public:
 private:
     CircleComponent* mCircle;
     float mCooldown;
+    float mReborn;
 };
 
 #endif
