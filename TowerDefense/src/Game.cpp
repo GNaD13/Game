@@ -4,6 +4,7 @@
 #include "BGSpriteComponent.hpp"
 #include "AIState.hpp"
 #include "AIComponent.hpp"
+#include "Grid.hpp"
 
 Game::Game()
     :   mWindow(nullptr),
@@ -172,6 +173,7 @@ void Game::GenerateOutput()
 
 void Game::LoadData()
 {
+    Grid* grid = new Grid(this);
     // Actor* actor = new Actor(this);
 
     // AIComponent* aic = new AIComponent(actor);

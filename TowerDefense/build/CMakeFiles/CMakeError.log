@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_deb28/fast"
-/usr/bin/make -f CMakeFiles/cmTC_deb28.dir/build.make CMakeFiles/cmTC_deb28.dir/build
-make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_deb28.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_deb28.dir/CheckSymbolExists.c.o   -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_deb28
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deb28.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_deb28.dir/CheckSymbolExists.c.o  -o cmTC_deb28 
-CMakeFiles/cmTC_deb28.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_6f93f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f93f.dir/build.make CMakeFiles/cmTC_6f93f.dir/build
+make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f93f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6f93f.dir/CheckSymbolExists.c.o   -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6f93f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f93f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6f93f.dir/CheckSymbolExists.c.o  -o cmTC_6f93f 
+CMakeFiles/cmTC_6f93f.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_deb28.dir/build.make:97: recipe for target 'cmTC_deb28' failed
-make[1]: *** [cmTC_deb28] Error 1
-make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_deb28/fast' failed
-make: *** [cmTC_deb28/fast] Error 2
+CMakeFiles/cmTC_6f93f.dir/build.make:97: recipe for target 'cmTC_6f93f' failed
+make[1]: *** [cmTC_6f93f] Error 1
+make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6f93f/fast' failed
+make: *** [cmTC_6f93f/fast] Error 2
 
-File /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5ab9a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5ab9a.dir/build.make CMakeFiles/cmTC_5ab9a.dir/build
-make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5ab9a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5ab9a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5ab9a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ab9a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5ab9a.dir/CheckFunctionExists.c.o  -o cmTC_5ab9a -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_9125c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9125c.dir/build.make CMakeFiles/cmTC_9125c.dir/build
+make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9125c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9125c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9125c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9125c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9125c.dir/CheckFunctionExists.c.o  -o cmTC_9125c -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5ab9a.dir/build.make:97: recipe for target 'cmTC_5ab9a' failed
-make[1]: *** [cmTC_5ab9a] Error 1
-make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_5ab9a/fast' failed
-make: *** [cmTC_5ab9a/fast] Error 2
+CMakeFiles/cmTC_9125c.dir/build.make:97: recipe for target 'cmTC_9125c' failed
+make[1]: *** [cmTC_9125c] Error 1
+make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9125c/fast' failed
+make: *** [cmTC_9125c/fast] Error 2
 
 
