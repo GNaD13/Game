@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense
+CMAKE_SOURCE_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build
+CMAKE_BINARY_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -312,6 +312,33 @@ src/Component.cpp.s:
 	$(MAKE) -f CMakeFiles/TowerDefense.dir/build.make CMakeFiles/TowerDefense.dir/src/Component.cpp.s
 .PHONY : src/Component.cpp.s
 
+src/Enemy.o: src/Enemy.cpp.o
+
+.PHONY : src/Enemy.o
+
+# target to build an object file
+src/Enemy.cpp.o:
+	$(MAKE) -f CMakeFiles/TowerDefense.dir/build.make CMakeFiles/TowerDefense.dir/src/Enemy.cpp.o
+.PHONY : src/Enemy.cpp.o
+
+src/Enemy.i: src/Enemy.cpp.i
+
+.PHONY : src/Enemy.i
+
+# target to preprocess a source file
+src/Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles/TowerDefense.dir/build.make CMakeFiles/TowerDefense.dir/src/Enemy.cpp.i
+.PHONY : src/Enemy.cpp.i
+
+src/Enemy.s: src/Enemy.cpp.s
+
+.PHONY : src/Enemy.s
+
+# target to generate assembly for a file
+src/Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles/TowerDefense.dir/build.make CMakeFiles/TowerDefense.dir/src/Enemy.cpp.s
+.PHONY : src/Enemy.cpp.s
+
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -528,6 +555,33 @@ src/Tile.cpp.s:
 	$(MAKE) -f CMakeFiles/TowerDefense.dir/build.make CMakeFiles/TowerDefense.dir/src/Tile.cpp.s
 .PHONY : src/Tile.cpp.s
 
+src/Tower.o: src/Tower.cpp.o
+
+.PHONY : src/Tower.o
+
+# target to build an object file
+src/Tower.cpp.o:
+	$(MAKE) -f CMakeFiles/TowerDefense.dir/build.make CMakeFiles/TowerDefense.dir/src/Tower.cpp.o
+.PHONY : src/Tower.cpp.o
+
+src/Tower.i: src/Tower.cpp.i
+
+.PHONY : src/Tower.i
+
+# target to preprocess a source file
+src/Tower.cpp.i:
+	$(MAKE) -f CMakeFiles/TowerDefense.dir/build.make CMakeFiles/TowerDefense.dir/src/Tower.cpp.i
+.PHONY : src/Tower.cpp.i
+
+src/Tower.s: src/Tower.cpp.s
+
+.PHONY : src/Tower.s
+
+# target to generate assembly for a file
+src/Tower.cpp.s:
+	$(MAKE) -f CMakeFiles/TowerDefense.dir/build.make CMakeFiles/TowerDefense.dir/src/Tower.cpp.s
+.PHONY : src/Tower.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -585,6 +639,9 @@ help:
 	@echo "... src/Component.o"
 	@echo "... src/Component.i"
 	@echo "... src/Component.s"
+	@echo "... src/Enemy.o"
+	@echo "... src/Enemy.i"
+	@echo "... src/Enemy.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
@@ -609,6 +666,9 @@ help:
 	@echo "... src/Tile.o"
 	@echo "... src/Tile.i"
 	@echo "... src/Tile.s"
+	@echo "... src/Tower.o"
+	@echo "... src/Tower.i"
+	@echo "... src/Tower.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

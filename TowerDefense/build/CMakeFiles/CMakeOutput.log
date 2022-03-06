@@ -1,4 +1,4 @@
-The system is: Linux - 5.4.0-90-generic - x86_64
+The system is: Linux - 5.4.0-100-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2813e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2813e.dir/build.make CMakeFiles/cmTC_2813e.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2813e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2813e.dir/testCCompiler.c.o   -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_2813e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2813e.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_2813e.dir/testCCompiler.c.o  -o cmTC_2813e 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5c058/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c058.dir/build.make CMakeFiles/cmTC_5c058.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c058.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5c058.dir/testCCompiler.c.o   -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5c058
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c058.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5c058.dir/testCCompiler.c.o  -o cmTC_5c058 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_244bb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_244bb.dir/build.make CMakeFiles/cmTC_244bb.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_244bb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_244bb.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o  -o cmTC_244bb 
+Run Build Command:"/usr/bin/make" "cmTC_41e54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41e54.dir/build.make CMakeFiles/cmTC_41e54.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_41e54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e54.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o  -o cmTC_41e54 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_244bb' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccmbvpc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_244bb /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_244bb' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e54' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZyd1Qa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41e54 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e54' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_244bb/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_244bb.dir/build.make CMakeFiles/cmTC_244bb.dir/build]
-  ignore line: [make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_244bb]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_244bb.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o  -o cmTC_244bb ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_41e54/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_41e54.dir/build.make CMakeFiles/cmTC_41e54.dir/build]
+  ignore line: [make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_41e54]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e54.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o  -o cmTC_41e54 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_244bb' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccmbvpc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_244bb /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e54' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZyd1Qa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41e54 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cccmbvpc.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZyd1Qa.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_244bb] ==> ignore
+    arg [cmTC_41e54] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_244bb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_41e54.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -156,17 +156,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_82bfa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_82bfa.dir/build.make CMakeFiles/cmTC_82bfa.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_82bfa.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_82bfa.dir/feature_tests.c.o   -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_82bfa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82bfa.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_82bfa.dir/feature_tests.c.o  -o cmTC_82bfa 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8b328/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b328.dir/build.make CMakeFiles/cmTC_8b328.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b328.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8b328.dir/feature_tests.c.o   -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8b328
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b328.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8b328.dir/feature_tests.c.o  -o cmTC_8b328 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,17 +176,17 @@ make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_914ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_914ab.dir/build.make CMakeFiles/cmTC_914ab.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_914ab.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_914ab.dir/feature_tests.c.o   -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_914ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_914ab.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_914ab.dir/feature_tests.c.o  -o cmTC_914ab 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ae002/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae002.dir/build.make CMakeFiles/cmTC_ae002.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae002.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ae002.dir/feature_tests.c.o   -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ae002
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae002.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ae002.dir/feature_tests.c.o  -o cmTC_ae002 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -196,17 +196,17 @@ make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2e32/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2e32.dir/build.make CMakeFiles/cmTC_a2e32.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2e32.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a2e32.dir/feature_tests.c.o   -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a2e32
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2e32.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_a2e32.dir/feature_tests.c.o  -o cmTC_a2e32 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0ba21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ba21.dir/build.make CMakeFiles/cmTC_0ba21.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ba21.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_0ba21.dir/feature_tests.c.o   -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0ba21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ba21.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0ba21.dir/feature_tests.c.o  -o cmTC_0ba21 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -214,30 +214,30 @@ make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f3bc5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f3bc5.dir/build.make CMakeFiles/cmTC_f3bc5.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f3bc5.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_f3bc5.dir/testCXXCompiler.cxx.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f3bc5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3bc5.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f3bc5.dir/testCXXCompiler.cxx.o  -o cmTC_f3bc5 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e9d31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9d31.dir/build.make CMakeFiles/cmTC_e9d31.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9d31.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e9d31.dir/testCXXCompiler.cxx.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e9d31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9d31.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e9d31.dir/testCXXCompiler.cxx.o  -o cmTC_e9d31 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22318/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22318.dir/build.make CMakeFiles/cmTC_22318.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_22318
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22318.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_22318 
+Run Build Command:"/usr/bin/make" "cmTC_78c53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78c53.dir/build.make CMakeFiles/cmTC_78c53.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_78c53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78c53.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_78c53 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -249,24 +249,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22318' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNi5z7B.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_22318 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22318' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78c53' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoSH2Nj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_78c53 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78c53' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_22318/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_22318.dir/build.make CMakeFiles/cmTC_22318.dir/build]
-  ignore line: [make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_22318]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22318.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_22318 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_78c53/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_78c53.dir/build.make CMakeFiles/cmTC_78c53.dir/build]
+  ignore line: [make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_78c53]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78c53.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_78c53 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22318' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNi5z7B.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_22318 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78c53' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoSH2Nj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_78c53 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNi5z7B.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccoSH2Nj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_22318] ==> ignore
+    arg [cmTC_78c53] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_22318.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_78c53.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -340,17 +340,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7b01a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7b01a.dir/build.make CMakeFiles/cmTC_7b01a.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7b01a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_7b01a.dir/feature_tests.cxx.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7b01a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b01a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_7b01a.dir/feature_tests.cxx.o  -o cmTC_7b01a 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fece1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fece1.dir/build.make CMakeFiles/cmTC_fece1.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fece1.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_fece1.dir/feature_tests.cxx.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fece1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fece1.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_fece1.dir/feature_tests.cxx.o  -o cmTC_fece1 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -413,17 +413,17 @@ make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09c4c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_09c4c.dir/build.make CMakeFiles/cmTC_09c4c.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_09c4c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_09c4c.dir/feature_tests.cxx.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_09c4c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09c4c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_09c4c.dir/feature_tests.cxx.o  -o cmTC_09c4c 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_199d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_199d3.dir/build.make CMakeFiles/cmTC_199d3.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_199d3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_199d3.dir/feature_tests.cxx.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_199d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_199d3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_199d3.dir/feature_tests.cxx.o  -o cmTC_199d3 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -486,17 +486,17 @@ make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c0294/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c0294.dir/build.make CMakeFiles/cmTC_c0294.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c0294.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_c0294.dir/feature_tests.cxx.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c0294
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0294.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c0294.dir/feature_tests.cxx.o  -o cmTC_c0294 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f7d75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7d75.dir/build.make CMakeFiles/cmTC_f7d75.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7d75.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f7d75.dir/feature_tests.cxx.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f7d75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7d75.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f7d75.dir/feature_tests.cxx.o  -o cmTC_f7d75 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -559,17 +559,17 @@ make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48707/fast"
-/usr/bin/make -f CMakeFiles/cmTC_48707.dir/build.make CMakeFiles/cmTC_48707.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_48707.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_48707.dir/feature_tests.cxx.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_48707
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48707.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_48707.dir/feature_tests.cxx.o  -o cmTC_48707 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_21336/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21336.dir/build.make CMakeFiles/cmTC_21336.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21336.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_21336.dir/feature_tests.cxx.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_21336
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21336.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_21336.dir/feature_tests.cxx.o  -o cmTC_21336 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -630,30 +630,30 @@ make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b4f02/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b4f02.dir/build.make CMakeFiles/cmTC_b4f02.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b4f02.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b4f02.dir/CheckIncludeFile.c.o   -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b4f02
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f02.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b4f02.dir/CheckIncludeFile.c.o  -o cmTC_b4f02 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_80ad2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80ad2.dir/build.make CMakeFiles/cmTC_80ad2.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80ad2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_80ad2.dir/CheckIncludeFile.c.o   -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_80ad2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80ad2.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_80ad2.dir/CheckIncludeFile.c.o  -o cmTC_80ad2 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8a2a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8a2a3.dir/build.make CMakeFiles/cmTC_8a2a3.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8a2a3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8a2a3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8a2a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a2a3.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8a2a3.dir/CheckFunctionExists.c.o  -o cmTC_8a2a3 -lpthread 
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bb3b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb3b0.dir/build.make CMakeFiles/cmTC_bb3b0.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb3b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bb3b0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb3b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb3b0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bb3b0.dir/CheckFunctionExists.c.o  -o cmTC_bb3b0 -lpthread 
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/CMakeFiles/CMakeTmp'
 
 

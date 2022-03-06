@@ -3,8 +3,8 @@
 
 MoveComponent::MoveComponent(Actor* owner, int updateOrder)
     :   Component(owner, updateOrder),
-        mForwardSpeed(100.0f),
-        mAngularSpeed(30.0f)
+        mForwardSpeed(0.0f),
+        mAngularSpeed(0.0f)
 {
 
 }

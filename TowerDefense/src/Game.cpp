@@ -4,7 +4,6 @@
 #include "BGSpriteComponent.hpp"
 #include "AIState.hpp"
 #include "AIComponent.hpp"
-#include "Grid.hpp"
 
 Game::Game()
     :   mWindow(nullptr),
@@ -98,6 +97,13 @@ void Game::ProcessInput()
             break;
     }
 
+    int x, y;
+    uint32_t button = SDL_GetMouseState(&x, &y);
+    if(SDL_BUTTON(button) & SDL_BUTTON_LEFT)
+    {
+        mGrid->ProcessClick(x, y);
+    }
+
     const uint8_t* state = SDL_GetKeyboardState(NULL);
     if(state[SDL_SCANCODE_ESCAPE])
     {
@@ -173,7 +179,7 @@ void Game::GenerateOutput()
 
 void Game::LoadData()
 {
-    Grid* grid = new Grid(this);
+    mGrid = new Grid(this);
     // Actor* actor = new Actor(this);
 
     // AIComponent* aic = new AIComponent(actor);

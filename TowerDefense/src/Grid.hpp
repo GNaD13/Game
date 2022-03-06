@@ -20,7 +20,8 @@ public:
     Tile* GetStartTile();
     Tile* GetEndTile();
 
-    void UpdateActor(float deltaTime) override;
+    virtual void UpdateActor(float deltaTime) override;
+    virtual void ActorInput(const uint8_t* keyState) override;
 private:
     //  Select specifi tile
     void SelectTile(size_t row, size_t col);

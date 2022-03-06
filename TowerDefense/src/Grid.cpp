@@ -1,6 +1,8 @@
 #include "Grid.hpp"
 #include "Game.hpp"
 #include "Tile.hpp"
+#include "Tower.hpp"
+#include "Enemy.hpp"
 #include <algorithm>
 #include <iostream>
 
@@ -56,7 +58,7 @@ Grid::Grid(Game* game)
     GetEndTile()->SetTileState(Tile::TileState::EGoal);
 
     // // Update Path from Start to Goal
-    bool temp = FindPath(GetEndTile(), GetStartTile());
+    FindPath(GetEndTile(), GetStartTile());
     UpdatePathTiles(GetStartTile());
 
     // Set enemytime
@@ -70,7 +72,16 @@ Grid::~Grid()
 
 void Grid::ProcessClick(int x, int y)
 {
-
+    y -= static_cast<int>(StartY - TileSize / 2);
+	if (y >= 0)
+	{
+		x /= static_cast<int>(TileSize);
+		y /= static_cast<int>(TileSize);
+		if (x >= 0 && x < static_cast<int>(NumCols) && y >= 0 && y < static_cast<int>(NumRows))
+		{
+			SelectTile(y, x);
+		}
+	}
 }
 
 bool Grid::FindPath(Tile* start, Tile* goal)
@@ -80,13 +91,9 @@ bool Grid::FindPath(Tile* start, Tile* goal)
     {
         for(size_t j = 0; j < NumCols; j++)
         {
-            if(mTiles[i][j]->GetTileState() != Tile::TileState::EStart && 
-                mTiles[i][j]->GetTileState() != Tile::TileState::EGoal)
-            {
-                mTiles[i][j]->f = 0.0f;
-                mTiles[i][j]->mInCloseSet = false;
-                mTiles[i][j]->mInOpenSet = false;
-            }
+            mTiles[i][j]->f = 0.0f;
+            mTiles[i][j]->mInCloseSet = false;
+            mTiles[i][j]->mInOpenSet = false;
         }
     }
 
@@ -148,7 +155,7 @@ bool Grid::FindPath(Tile* start, Tile* goal)
 
     } while (currentTile != goal);
 
-    return currentTile == goal;
+    return (currentTile == goal) ? true : false;
 }
 
 void Grid::SelectTile(size_t row, size_t col)
@@ -156,16 +163,12 @@ void Grid::SelectTile(size_t row, size_t col)
     Tile::TileState state = mTiles[row][col]->GetTileState();
     if(state != Tile::TileState::EStart && state != Tile::TileState::EGoal)
     {
-        if(mSelectedTile != mTiles[row][col])
+        if(mSelectedTile)
         {
-            UnSelectTile();
-            mSelectedTile = mTiles[row][col];
             mSelectedTile->ToggleSelect();
         }
-        else
-        {
-            UnSelectTile();
-        }
+        mSelectedTile = mTiles[row][col];
+        mSelectedTile->ToggleSelect();
     }
 }
 
@@ -203,7 +206,21 @@ void Grid::UpdatePathTiles(Tile* start)
 
 void Grid::BuildTower()
 {
-
+    if(mSelectedTile && !mSelectedTile->mBlocked)
+    {
+        mSelectedTile->mBlocked = true;
+        if(FindPath(GetEndTile(), GetStartTile()))
+        {
+            Tower* t = new Tower(GetGame());
+            t->SetPosition(mSelectedTile->GetPosition());
+        }
+        else
+        {
+            mSelectedTile->mBlocked = false;
+            FindPath(GetEndTile(), GetStartTile());
+        }
+        UpdatePathTiles(GetStartTile());
+    }
 }
 
 Tile* Grid::GetStartTile()
@@ -222,5 +239,13 @@ void Grid::UpdateActor(float deltaTime)
     if(mNextEnemy <= 0.0f)
     {
         
+    }
+}
+
+void Grid::ActorInput(const uint8_t* keyState)
+{
+    if(keyState[SDL_SCANCODE_B])
+    {
+        BuildTower();
     }
 }

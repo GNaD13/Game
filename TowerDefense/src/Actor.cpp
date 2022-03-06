@@ -5,7 +5,9 @@
 
 Actor::Actor(Game* game)
     :   mGame(game),
-        mState(EActive)
+        mState(EActive),
+        mScale(1.0f),
+        mRotation(0.0f)
 {
     mGame->AddActor(this);
 }

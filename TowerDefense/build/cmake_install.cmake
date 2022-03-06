@@ -1,4 +1,4 @@
-# Install script for directory: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense
+# Install script for directory: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/TowerDefense/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/TowerDefense/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

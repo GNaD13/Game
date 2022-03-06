@@ -6,6 +6,7 @@
 #include <SDL2/SDL_image.h>
 #include <unordered_map>
 #include "SpriteComponent.hpp"
+#include "Grid.hpp"
 
 #define SCREEN_WIDTH    1024
 #define SCREEN_HEIGHT   768
@@ -49,6 +50,8 @@ private:
     bool mIsUpdatingActors;
 
     bool mIsRunning;
+
+    Grid* mGrid;
 };
 
 #endif
