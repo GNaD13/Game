@@ -1,8 +1,16 @@
 #version 330
 
-in vec3 inPosition;
+layout(location = 0) in vec3 inPosition;
+layout(location = 1) in vec2 inTexCoord;
+
+uniform mat4 uWorldTransform;
+uniform mat4 uViewProj;
+
+out vec2 vTexCoord;
 
 void main()
 {
-    gl_Position = vec4(inPosition, 1.0);
+    vec4 pos = vec4(inPosition, 1.0);
+    vTexCoord = inTexCoord;
+    gl_Position = pos * uWorldTransform * uViewProj;
 }

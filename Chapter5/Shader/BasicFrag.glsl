@@ -1,8 +1,12 @@
 #version 330
 
+in vec2 vTexCoord;
+
 out vec4 outColor;
+
+uniform sampler2D uTexture;
 
 void main()
 {
-    outColor = vec4(0.8, 0.3, 0.3, 1.0);
+    outColor = texture(uTexture, vTexCoord);
 }

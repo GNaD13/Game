@@ -8,14 +8,15 @@
 Asteroid::Asteroid(Game* game)
     :   Actor(game)
 {
-    Vector2 randPos = Random::GetVector(Vector2::Zero, Vector2(1024.0f, 768.0f));
+    Vector2 randPos = Random::GetVector(Vector2(-512.0f, -384.0f), Vector2(512.0f, 384.0f));
     float randRotation = Random::GetFloatRange(0.0f, Math::TwoPi);
     SetPosition(randPos);
     SetScale(1.0f);
     SetRotation(randRotation);
     SetState(EActive);
 
-    // SpriteComponent* sc = new SpriteComponent(this);
+    SpriteComponent* sc = new SpriteComponent(this);
+    sc->SetTexture(GetGame()->GetTexture("../Assets/Asteroid.png"));
     // SDL_Texture* text = GetGame()->GetTexture("../Assets/Asteroid.png");
     // sc->SetTexture(text);
 
@@ -37,7 +38,9 @@ Asteroid::~Asteroid()
 void Asteroid::UpdateActor(float deltaTime)
 {
     Vector2 pos = GetPosition();
-    pos.x = ((static_cast<int>(pos.x) + SCREEN_WIDTH) % SCREEN_WIDTH);
-    pos.y = ((static_cast<int>(pos.y) + SCREEN_HEIGHT) % SCREEN_HEIGHT);
+    if (pos.x < -512.0f) { pos.x = 510.0f; }
+	else if (pos.x > 512.0f) { pos.x = -510.0f; }
+	if (pos.y < -384.0f) { pos.y = 382.0f; }
+	else if (pos.y > 384.0f) { pos.y = -382.0f; }
     SetPosition(pos);
 }

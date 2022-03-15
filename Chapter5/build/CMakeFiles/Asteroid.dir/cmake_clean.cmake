@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Asteroid.dir/src/Shader.cpp.o"
   "CMakeFiles/Asteroid.dir/src/Ship.cpp.o"
   "CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o"
+  "CMakeFiles/Asteroid.dir/src/Texture.cpp.o"
   "CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o"
   "CMakeFiles/Asteroid.dir/src/main.cpp.o"
   "Asteroid.pdb"

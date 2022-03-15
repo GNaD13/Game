@@ -15,6 +15,7 @@ target_link_libraries(${PROJECT_NAME}   SDL2::Main
                                         SDL2::Image
                                         -lGLEW
                                         -lGL
+                                        -lSOIL
                                     )
 
 find_package(GLEW REQUIRED)

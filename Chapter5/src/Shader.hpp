@@ -3,6 +3,7 @@
 
 #include <string>
 #include <GL/glew.h>
+#include "Math.h"
 
 class Shader
 {
@@ -14,6 +15,8 @@ public:
     void Unload();
 
     void SetActive();
+
+    void SetMatrixUniform(const std::string& name, const Matrix4& matrix);
 private:
     bool CompileShader(const std::string& fileName, GLenum shaderType);
     bool IsCompiled(GLuint shader);

@@ -8,12 +8,12 @@
 Ship::Ship(Game* game)
     :   Actor(game)
 {
-    SetPosition(Vector2(100.0f, 384.0f));
+    SetPosition(Vector2(-412.0f, 0.0f));
     SetScale(1.0f);
     SetRotation(0.0f);
-    // SpriteComponent* sc = new SpriteComponent(this);
+    SpriteComponent* sc = new SpriteComponent(this);
     // SDL_Texture* texture = GetGame()->GetTexture("../Assets/Ship.png");
-    // sc->SetTexture(texture);
+    sc->SetTexture(GetGame()->GetTexture("../Assets/Ship.png"));
 
     InputComponent* ic = new InputComponent(this);
     ic->SetForwardKey(SDL_SCANCODE_W);
@@ -45,7 +45,7 @@ void Ship::UpdateActor(float deltaTime)
         mReborn += deltaTime;
         if(mReborn >= 2.0f)
         {
-            SetPosition(Vector2(SCREEN_WIDTH/2.0f, SCREEN_HEIGHT/2.0f));
+            SetPosition(Vector2(0.0f, 0.0f));
             SetRotation(0.0f);
             SetState(EActive);
         }

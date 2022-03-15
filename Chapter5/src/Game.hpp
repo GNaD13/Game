@@ -11,6 +11,7 @@
 #include "Asteroid.hpp"
 #include "VertexArray.hpp"
 #include "Shader.hpp"
+#include "Texture.hpp"
 
 #define SCREEN_WIDTH    1024
 #define SCREEN_HEIGHT   768
@@ -33,7 +34,7 @@ public:
     void AddSprite(SpriteComponent* sprite);
     void RemoveSprite(SpriteComponent* sprite);
 
-    SDL_Texture* GetTexture(const std::string& filename);
+    Texture* GetTexture(const std::string& fileName);
 
     /////
     std::vector<Asteroid*> GetAsteroid() const { return mAsteroid; }
@@ -52,7 +53,7 @@ private:
     SDL_GLContext mContext;
     uint32_t mTickCount;
 
-    std::unordered_map<std::string, SDL_Texture*> mTextures;
+    std::unordered_map<std::string, Texture*> mTextures;
 
     std::vector<Actor*> mActors;
     std::vector<Actor*> mPendingActors;

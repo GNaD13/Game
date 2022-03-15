@@ -105,7 +105,9 @@ void Game::Shutdown()
 {
     UnloadData();
     IMG_Quit();
-    // SDL_DestroyRenderer(mRenderer);
+    delete mSpriteVerts;
+    mSpriteShader->Unload();
+    delete mSpriteShader;
     SDL_GL_DeleteContext(mContext);
     SDL_DestroyWindow(mWindow);
     SDL_Quit();
@@ -214,16 +216,20 @@ bool Game::LoadShader()
         return false;
     }
     mSpriteShader->SetActive();
+
+    Matrix4 viewProj = Matrix4::CreateSimpleViewProj(1024.0f, 768.0f);
+    mSpriteShader->SetMatrixUniform("uViewProj", viewProj);
+
     return true;
 }
 
 void Game::CreateSpriteVerts()
 {
     float verticies[] = {
-        -0.5f,  0.5f, 0.0f,
-         0.5f,  0.5f, 0.0f,
-         0.5f, -0.5f, 0.0f,
-        -0.5f, -0.5f, 0.0f
+        -0.5f,  0.5f, 0.0f, 0.0f, 0.0f,
+         0.5f,  0.5f, 0.0f, 1.0f, 0.0f,
+         0.5f, -0.5f, 0.0f, 1.0f, 1.0f,
+        -0.5f, -0.5f, 0.0f, 0.0f, 1.0f
     };
 
     int indicies[] = {
@@ -236,8 +242,14 @@ void Game::CreateSpriteVerts()
 
 void Game::LoadData()
 {
-    Actor* temp = new Actor(this);
-    SpriteComponent* sc = new SpriteComponent(temp);
+    mShip = new Ship(this);
+	mShip->SetRotation(Math::PiOver2);
+
+    const int numAsteroids = 20;
+	for (int i = 0; i < numAsteroids; i++)
+	{
+		new Asteroid(this);
+	}
 }
 
 void Game::UnloadData()
@@ -249,15 +261,35 @@ void Game::UnloadData()
 
     for (auto i : mTextures)
 	{
-		SDL_DestroyTexture(i.second);
+        delete i.second;
 	}
 	mTextures.clear();
 }
 
 
-SDL_Texture* Game::GetTexture(const std::string& filename)
+Texture* Game::GetTexture(const std::string& fileName)
 {
-  
+    Texture* text = nullptr;
+    auto iter = mTextures.find(fileName);
+    if(iter != mTextures.end())
+    {
+        text = iter->second;
+    }
+    else
+    {
+        text = new Texture();
+        if(text->Load(fileName))
+        {
+            mTextures.emplace(fileName, text);
+            return text;
+        }
+        else
+        {
+            delete text;
+            text = nullptr;
+        }
+    }
+    return text;
 }
 
 void Game::AddActor(Actor* actor)

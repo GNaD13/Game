@@ -48,6 +48,12 @@ void Shader::SetActive()
     glUseProgram(mShaderProg);
 }
 
+void Shader::SetMatrixUniform(const std::string& name, const Matrix4& matrix)
+{
+    GLuint location = glGetUniformLocation(mShaderProg, name.c_str());
+    glUniformMatrix4fv(location, 1, GL_TRUE, matrix.GetAsFloatPtr());
+}
+
 bool Shader::CompileShader(const std::string& fileName, GLenum shaderType)
 {
     std::stringstream sstream;
