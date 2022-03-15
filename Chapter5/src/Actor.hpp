@@ -32,15 +32,15 @@ public:
     // Get/Set function
     State GetState() const { return mState; }
     void SetState(State state) { mState = state; }
-
     const Vector2& GetPosition() const { return mPosition; }
     void SetPosition(const Vector2& position) { mPosition = position; }
-
     float GetScale() const { return mScale; }
     void SetScale(float scale) { mScale = scale; }
-
     float GetRotation() const { return mRotation; }
     void SetRotation(float rotation) { mRotation = rotation; }
+
+    void ComputeWorldTransform();
+    const Matrix4& GetWorldTransform() const { return mWorldTransform; }
 
     void AddComponents(Component* component);
     void RemoveComponents(Component* component);
@@ -55,6 +55,8 @@ private:
     Vector2 mPosition;
     float mScale;
     float mRotation;
+    Matrix4 mWorldTransform;
+    bool mRecomputeWorldTransform;
 
     std::vector<Component*> mComponents;
     Game* mGame;

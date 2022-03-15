@@ -121,6 +121,10 @@ Ship.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Ship.hpp
 Asteroid.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Asteroid.hpp
+VertexArray.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/VertexArray.hpp
+Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.hpp
 
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/InputComponent.cpp
 InputComponent.hpp
@@ -182,6 +186,22 @@ random
 Math.h
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Math.h
 
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.cpp
+Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.hpp
+fstream
+-
+sstream
+-
+SDL2/SDL.h
+-
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.hpp
+string
+-
+GL/glew.h
+-
+
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Ship.cpp
 Ship.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Ship.hpp
@@ -207,12 +227,22 @@ Actor.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Actor.hpp
 Game.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Game.hpp
+Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.hpp
 
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/SpriteComponent.hpp
 Component.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Component.hpp
 SDL2/SDL.h
 -
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/VertexArray.cpp
+VertexArray.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/VertexArray.hpp
+GL/glew.h
+-
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/VertexArray.hpp
 
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/main.cpp
 iostream

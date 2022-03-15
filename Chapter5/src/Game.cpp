@@ -70,13 +70,13 @@ bool Game::Initialize()
 
     glGetError();
 
-    // Create Renderer
-    // mRenderer = SDL_CreateRenderer(mWindow, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-    // if(!mRenderer)
-    // {
-    //     SDL_Log("Failed to create renderer: %s", SDL_GetError());
-    //     return false;
-    // }
+    if(!LoadShader())
+    {
+        SDL_Log("Failed to load shader");
+        return false;
+    }
+
+    CreateSpriteVerts();
 
     if(!IMG_Init(IMG_INIT_PNG))
     {
@@ -169,6 +169,7 @@ void Game::UpdateGame()
     // Emplace pending actor to actor
     for(auto pending : mPendingActors)
     {
+        pending->ComputeWorldTransform();
         mActors.emplace_back(pending);
     }
     mPendingActors.clear();
@@ -192,47 +193,51 @@ void Game::UpdateGame()
 
 void Game::GenerateOutput()
 {
-    // SDL_SetRenderDrawColor(mRenderer, 255, 255, 255, 255);
-    // SDL_RenderClear(mRenderer);
+    glClearColor(0.86f, 0.86f, 0.86f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
 
-    // for(auto sprite : mSprites)
-    // {
-    //     sprite->Draw(mRenderer);
-    // }
+    mSpriteShader->SetActive();
+    mSpriteVerts->SetActive();
+    for(auto sprite : mSprites)
+    {
+        sprite->Draw(mSpriteShader);
+    }
 
-    // SDL_RenderPresent(mRenderer);
+    SDL_GL_SwapWindow(mWindow);
+}
+
+bool Game::LoadShader()
+{
+    mSpriteShader = new Shader();
+    if(!mSpriteShader->Load("../Shader/BasicVert.glsl", "../Shader/BasicFrag.glsl"))
+    {
+        return false;
+    }
+    mSpriteShader->SetActive();
+    return true;
+}
+
+void Game::CreateSpriteVerts()
+{
+    float verticies[] = {
+        -0.5f,  0.5f, 0.0f,
+         0.5f,  0.5f, 0.0f,
+         0.5f, -0.5f, 0.0f,
+        -0.5f, -0.5f, 0.0f
+    };
+
+    int indicies[] = {
+        0, 1, 2,
+        2, 3, 0
+    };
+
+    mSpriteVerts = new VertexArray(verticies, 4, indicies, 6);
 }
 
 void Game::LoadData()
 {
-    // mShip = new Ship(this);
-
-    // const int numAsteroids = 20;
-    // for(int i = 0; i < numAsteroids; i++)
-    // {
-    //     new Asteroid(this);
-    // }
-    
-    // Actor* temp = new Actor(this);
-
-    // temp->SetPosition(Vector2(SCREEN_WIDTH/2.0f, SCREEN_HEIGHT/2));
-    // temp->SetRotation(0.0f);
-
-    // BGSpriteComponent* bg = new BGSpriteComponent(temp);
-    // bg->SetScreenSize(Vector2(SCREEN_WIDTH, SCREEN_HEIGHT));
-    // std::vector<SDL_Texture*> tex = { GetTexture("../Assets/Farback01.png"),
-    //                                   GetTexture("../Assets/Farback02.png")
-    //                                 };
-    // bg->SetBGTextures(tex);
-    // bg->SetScrollSpeed(-100.0f);
-
-    // bg = new BGSpriteComponent(temp, 20);
-    // bg->SetScreenSize(Vector2(SCREEN_WIDTH, SCREEN_HEIGHT));
-    // tex = { GetTexture("../Assets/Stars.png"),
-    //         GetTexture("../Assets/Stars.png")
-    //       };
-    // bg->SetBGTextures(tex);
-    // bg->SetScrollSpeed(-200.0f);
+    Actor* temp = new Actor(this);
+    SpriteComponent* sc = new SpriteComponent(temp);
 }
 
 void Game::UnloadData()
@@ -249,33 +254,10 @@ void Game::UnloadData()
 	mTextures.clear();
 }
 
+
 SDL_Texture* Game::GetTexture(const std::string& filename)
 {
-    // SDL_Texture* texture = nullptr;
-    // auto iter = mTextures.find(filename);
-    // if(iter != mTextures.end())
-    // {
-    //     texture = iter->second;
-    // }
-    // else
-    // {
-    //     SDL_Surface* surf = IMG_Load(filename.c_str());
-    //     if(!surf)
-    //     {
-    //         SDL_Log("Failed to load texture file %s", filename.c_str());
-    //         return nullptr;
-    //     }
-
-    //     texture = SDL_CreateTextureFromSurface(mRenderer, surf);
-    //     SDL_FreeSurface(surf);
-    //     if(!texture)
-    //     {
-    //         SDL_Log("Failed to convert surface to texture for %s", filename.c_str());
-    //         return nullptr;
-    //     }
-    //     mTextures.emplace(filename.c_str(), texture);
-    // }
-    // return texture;
+  
 }
 
 void Game::AddActor(Actor* actor)
@@ -308,28 +290,28 @@ void Game::RemoveActor(Actor* actor)
     }
 }
 
-// void Game::AddSprite(SpriteComponent* sprite)
-// {
-    // int myOrder = sprite->GetDrawOrder();
-    // auto iter = mSprites.begin();
-    // for(; iter != mSprites.end(); iter++)
-    // {
-    //     if(myOrder < (*iter)->GetDrawOrder())
-    //     {
-    //         break;
-    //     }
-    // }
-    // mSprites.insert(iter, sprite);
-// }
+void Game::AddSprite(SpriteComponent* sprite)
+{
+    int myOrder = sprite->GetDrawOrder();
+    auto iter = mSprites.begin();
+    for(; iter != mSprites.end(); iter++)
+    {
+        if(myOrder < (*iter)->GetDrawOrder())
+        {
+            break;
+        }
+    }
+    mSprites.insert(iter, sprite);
+}
 
-// void Game::RemoveSprite(SpriteComponent* sprite)
-// {
-//     auto iter = std::find(mSprites.begin(), mSprites.end(), sprite);
-//     if(iter != mSprites.end())
-//     {
-//         mSprites.erase(iter);
-//     }
-// }
+void Game::RemoveSprite(SpriteComponent* sprite)
+{
+    auto iter = std::find(mSprites.begin(), mSprites.end(), sprite);
+    if(iter != mSprites.end())
+    {
+        mSprites.erase(iter);
+    }
+}
 
 void Game::AddAsteroid(Asteroid* ast)
 {

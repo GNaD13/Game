@@ -345,9 +345,33 @@ CMakeFiles/Asteroid.dir/src/Random.cpp.o.provides: CMakeFiles/Asteroid.dir/src/R
 CMakeFiles/Asteroid.dir/src/Random.cpp.o.provides.build: CMakeFiles/Asteroid.dir/src/Random.cpp.o
 
 
+CMakeFiles/Asteroid.dir/src/Shader.cpp.o: CMakeFiles/Asteroid.dir/flags.make
+CMakeFiles/Asteroid.dir/src/Shader.cpp.o: ../src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Asteroid.dir/src/Shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Asteroid.dir/src/Shader.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.cpp
+
+CMakeFiles/Asteroid.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Asteroid.dir/src/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.cpp > CMakeFiles/Asteroid.dir/src/Shader.cpp.i
+
+CMakeFiles/Asteroid.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Asteroid.dir/src/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.cpp -o CMakeFiles/Asteroid.dir/src/Shader.cpp.s
+
+CMakeFiles/Asteroid.dir/src/Shader.cpp.o.requires:
+
+.PHONY : CMakeFiles/Asteroid.dir/src/Shader.cpp.o.requires
+
+CMakeFiles/Asteroid.dir/src/Shader.cpp.o.provides: CMakeFiles/Asteroid.dir/src/Shader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Shader.cpp.o.provides.build
+.PHONY : CMakeFiles/Asteroid.dir/src/Shader.cpp.o.provides
+
+CMakeFiles/Asteroid.dir/src/Shader.cpp.o.provides.build: CMakeFiles/Asteroid.dir/src/Shader.cpp.o
+
+
 CMakeFiles/Asteroid.dir/src/Ship.cpp.o: CMakeFiles/Asteroid.dir/flags.make
 CMakeFiles/Asteroid.dir/src/Ship.cpp.o: ../src/Ship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Asteroid.dir/src/Ship.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Asteroid.dir/src/Ship.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Asteroid.dir/src/Ship.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Ship.cpp
 
 CMakeFiles/Asteroid.dir/src/Ship.cpp.i: cmake_force
@@ -371,7 +395,7 @@ CMakeFiles/Asteroid.dir/src/Ship.cpp.o.provides.build: CMakeFiles/Asteroid.dir/s
 
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: CMakeFiles/Asteroid.dir/flags.make
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/SpriteComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/SpriteComponent.cpp
 
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.i: cmake_force
@@ -393,9 +417,33 @@ CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o.provides: CMakeFiles/Asteroid.
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o.provides.build: CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o
 
 
+CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o: CMakeFiles/Asteroid.dir/flags.make
+CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/VertexArray.cpp
+
+CMakeFiles/Asteroid.dir/src/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Asteroid.dir/src/VertexArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/VertexArray.cpp > CMakeFiles/Asteroid.dir/src/VertexArray.cpp.i
+
+CMakeFiles/Asteroid.dir/src/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Asteroid.dir/src/VertexArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/VertexArray.cpp -o CMakeFiles/Asteroid.dir/src/VertexArray.cpp.s
+
+CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o.requires:
+
+.PHONY : CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o.requires
+
+CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o.provides: CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o.provides.build
+.PHONY : CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o.provides
+
+CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o.provides.build: CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o
+
+
 CMakeFiles/Asteroid.dir/src/main.cpp.o: CMakeFiles/Asteroid.dir/flags.make
 CMakeFiles/Asteroid.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Asteroid.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Asteroid.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Asteroid.dir/src/main.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/main.cpp
 
 CMakeFiles/Asteroid.dir/src/main.cpp.i: cmake_force
@@ -431,8 +479,10 @@ Asteroid_OBJECTS = \
 "CMakeFiles/Asteroid.dir/src/Math.cpp.o" \
 "CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o" \
 "CMakeFiles/Asteroid.dir/src/Random.cpp.o" \
+"CMakeFiles/Asteroid.dir/src/Shader.cpp.o" \
 "CMakeFiles/Asteroid.dir/src/Ship.cpp.o" \
 "CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o" \
+"CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o" \
 "CMakeFiles/Asteroid.dir/src/main.cpp.o"
 
 # External object files for target Asteroid
@@ -450,8 +500,10 @@ Asteroid: CMakeFiles/Asteroid.dir/src/Laser.cpp.o
 Asteroid: CMakeFiles/Asteroid.dir/src/Math.cpp.o
 Asteroid: CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o
 Asteroid: CMakeFiles/Asteroid.dir/src/Random.cpp.o
+Asteroid: CMakeFiles/Asteroid.dir/src/Shader.cpp.o
 Asteroid: CMakeFiles/Asteroid.dir/src/Ship.cpp.o
 Asteroid: CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o
+Asteroid: CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o
 Asteroid: CMakeFiles/Asteroid.dir/src/main.cpp.o
 Asteroid: CMakeFiles/Asteroid.dir/build.make
 Asteroid: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
@@ -459,7 +511,7 @@ Asteroid: /usr/lib/x86_64-linux-gnu/libGLEW.so
 Asteroid: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 Asteroid: /usr/lib/x86_64-linux-gnu/libSDL2.so
 Asteroid: CMakeFiles/Asteroid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Asteroid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Asteroid"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Asteroid.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -479,8 +531,10 @@ CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/Laser.cpp.o.requir
 CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/Math.cpp.o.requires
 CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o.requires
 CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/Random.cpp.o.requires
+CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/Shader.cpp.o.requires
 CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/Ship.cpp.o.requires
 CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o.requires
+CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o.requires
 CMakeFiles/Asteroid.dir/requires: CMakeFiles/Asteroid.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/Asteroid.dir/requires

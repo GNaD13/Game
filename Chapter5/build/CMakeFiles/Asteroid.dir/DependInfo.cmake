@@ -16,8 +16,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Math.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles/Asteroid.dir/src/Math.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/MoveComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Random.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles/Asteroid.dir/src/Random.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Shader.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles/Asteroid.dir/src/Shader.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/Ship.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles/Asteroid.dir/src/Ship.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/SpriteComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/VertexArray.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles/Asteroid.dir/src/VertexArray.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/src/main.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/Chapter5/build/CMakeFiles/Asteroid.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

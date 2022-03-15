@@ -9,6 +9,8 @@
 #include "SpriteComponent.hpp"
 #include "Ship.hpp"
 #include "Asteroid.hpp"
+#include "VertexArray.hpp"
+#include "Shader.hpp"
 
 #define SCREEN_WIDTH    1024
 #define SCREEN_HEIGHT   768
@@ -28,8 +30,8 @@ public:
     void AddActor(Actor* actor);
     void RemoveActor(Actor* actor);
 
-    // void AddSprite(SpriteComponent* sprite);
-    // void RemoveSprite(SpriteComponent* sprite);
+    void AddSprite(SpriteComponent* sprite);
+    void RemoveSprite(SpriteComponent* sprite);
 
     SDL_Texture* GetTexture(const std::string& filename);
 
@@ -41,11 +43,12 @@ private:
     void ProcessInput();
     void UpdateGame();
     void GenerateOutput();
+    bool LoadShader();
+    void CreateSpriteVerts();
     void LoadData();
     void UnloadData();
 // member variable
     SDL_Window* mWindow;
-    // SDL_Renderer* mRenderer;
     SDL_GLContext mContext;
     uint32_t mTickCount;
 
@@ -54,7 +57,10 @@ private:
     std::vector<Actor*> mActors;
     std::vector<Actor*> mPendingActors;
 
-    // std::vector<SpriteComponent*> mSprites;
+    VertexArray* mSpriteVerts;
+    Shader* mSpriteShader;
+
+    std::vector<SpriteComponent*> mSprites;
     bool mIsUpdatingActors;
 
     bool mIsRunning;

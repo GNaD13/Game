@@ -5,7 +5,8 @@
 
 Actor::Actor(Game* game)
     :   mGame(game),
-        mState(EActive)
+        mState(EActive),
+        mRecomputeWorldTransform(true)
 {
     mGame->AddActor(this);
 }
@@ -23,8 +24,10 @@ void Actor::Update(float deltaTime)
 {
     if(mState == EActive || mState == EReborn)
     {
+        ComputeWorldTransform();
         UpdateComponents(deltaTime);
         UpdateActor(deltaTime);
+        ComputeWorldTransform();
     }
 }
 
@@ -45,6 +48,18 @@ void Actor::ProcessInput(const uint8_t* keyState)
             component->ProcessInput(keyState);
         }
         ActorInput(keyState);
+    }
+}
+
+void Actor::ComputeWorldTransform()
+{
+    if(mRecomputeWorldTransform)
+    {
+        mRecomputeWorldTransform = false;
+
+        mWorldTransform = Matrix4::CreateScale(mScale);
+        mWorldTransform *= Matrix4::CreateRotationZ(mRotation);
+        mWorldTransform *= Matrix4::CreateTranslation(Vector3(mPosition.x, mPosition.y, 0.0f));
     }
 }
 
