@@ -45,7 +45,7 @@ public:
     void AddComponents(Component* component);
     void RemoveComponents(Component* component);
 
-    Vector2 GetForward() const { return Vector2(Math::Cos(mRotation), -Math::Sin(mRotation)); }
+    Vector2 GetForward() const { return Vector2(Math::Cos(mRotation), Math::Sin(mRotation)); }
 
     Game* GetGame() { return mGame; }
 private:  

@@ -78,6 +78,9 @@ bool Game::Initialize()
 
     CreateSpriteVerts();
 
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
     if(!IMG_Init(IMG_INIT_PNG))
     {
         SDL_Log("Failed to initialize IMG: %s", SDL_GetError());
@@ -200,6 +203,7 @@ void Game::GenerateOutput()
 
     mSpriteShader->SetActive();
     mSpriteVerts->SetActive();
+
     for(auto sprite : mSprites)
     {
         sprite->Draw(mSpriteShader);
@@ -243,7 +247,6 @@ void Game::CreateSpriteVerts()
 void Game::LoadData()
 {
     mShip = new Ship(this);
-	mShip->SetRotation(Math::PiOver2);
 
     const int numAsteroids = 20;
 	for (int i = 0; i < numAsteroids; i++)

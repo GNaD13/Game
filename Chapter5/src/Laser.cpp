@@ -9,9 +9,9 @@
 Laser::Laser(Game* game)
     :   Actor(game)
 {
-    // SpriteComponent* sc = new SpriteComponent(this);
+    SpriteComponent* sc = new SpriteComponent(this);
     // SDL_Texture* text = GetGame()->GetTexture("../Assets/Laser.png");
-    // sc->SetTexture(text);
+    sc->SetTexture(GetGame()->GetTexture("../Assets/Laser.png"));
 
     MoveComponent* mc = new MoveComponent(this);
     mc->SetForwardSpeed(800.0f);

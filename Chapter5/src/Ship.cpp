@@ -8,11 +8,7 @@
 Ship::Ship(Game* game)
     :   Actor(game)
 {
-    SetPosition(Vector2(-412.0f, 0.0f));
-    SetScale(1.0f);
-    SetRotation(0.0f);
     SpriteComponent* sc = new SpriteComponent(this);
-    // SDL_Texture* texture = GetGame()->GetTexture("../Assets/Ship.png");
     sc->SetTexture(GetGame()->GetTexture("../Assets/Ship.png"));
 
     InputComponent* ic = new InputComponent(this);
@@ -39,7 +35,6 @@ Ship::~Ship()
 void Ship::UpdateActor(float deltaTime)
 {
     mCooldown -= deltaTime;
-
     if(GetState() == EReborn)
     {
         mReborn += deltaTime;
@@ -52,17 +47,17 @@ void Ship::UpdateActor(float deltaTime)
     }
     else if(GetState() == EActive)
     {
-        for(auto ast : GetGame()->GetAsteroid())
-        {
-            if(Intersect(*mCircle, *(ast->GetCircle())))
-            {
-                SetState(EReborn);
-                ast->SetState(EDead);
-                mReborn = 0.0f;
-                break;
-            }
+        // for(auto ast : GetGame()->GetAsteroid())
+        // {
+        //     if(Intersect(*mCircle, *(ast->GetCircle())))
+        //     {
+        //         SetState(EReborn);
+        //         ast->SetState(EDead);
+        //         mReborn = 0.0f;
+        //         break;
+        //     }
 
-        }
+        // }
     }
 }
 

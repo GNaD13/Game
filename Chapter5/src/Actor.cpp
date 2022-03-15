@@ -3,10 +3,14 @@
 #include "Component.hpp"
 #include <algorithm>
 
+
 Actor::Actor(Game* game)
-    :   mGame(game),
-        mState(EActive),
-        mRecomputeWorldTransform(true)
+    : mGame(game)
+    , mState(EActive)
+    , mRecomputeWorldTransform(true)
+    , mPosition(Vector2::Zero)
+	, mScale(1.0f)
+	, mRotation(0.0f)
 {
     mGame->AddActor(this);
 }
