@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame
+CMAKE_SOURCE_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build
+CMAKE_BINARY_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,6 +285,33 @@ src/Math.cpp.s:
 	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Math.cpp.s
 .PHONY : src/Math.cpp.s
 
+src/Mesh.o: src/Mesh.cpp.o
+
+.PHONY : src/Mesh.o
+
+# target to build an object file
+src/Mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Mesh.cpp.o
+.PHONY : src/Mesh.cpp.o
+
+src/Mesh.i: src/Mesh.cpp.i
+
+.PHONY : src/Mesh.i
+
+# target to preprocess a source file
+src/Mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Mesh.cpp.i
+.PHONY : src/Mesh.cpp.i
+
+src/Mesh.s: src/Mesh.cpp.s
+
+.PHONY : src/Mesh.s
+
+# target to generate assembly for a file
+src/Mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Mesh.cpp.s
+.PHONY : src/Mesh.cpp.s
+
 src/MoveComponent.o: src/MoveComponent.cpp.o
 
 .PHONY : src/MoveComponent.o
@@ -338,6 +365,33 @@ src/Random.s: src/Random.cpp.s
 src/Random.cpp.s:
 	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Random.cpp.s
 .PHONY : src/Random.cpp.s
+
+src/Renderer.o: src/Renderer.cpp.o
+
+.PHONY : src/Renderer.o
+
+# target to build an object file
+src/Renderer.cpp.o:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Renderer.cpp.o
+.PHONY : src/Renderer.cpp.o
+
+src/Renderer.i: src/Renderer.cpp.i
+
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) -f CMakeFiles/Asteroid.dir/build.make CMakeFiles/Asteroid.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
 
 src/Shader.o: src/Shader.cpp.o
 
@@ -501,12 +555,18 @@ help:
 	@echo "... src/Math.o"
 	@echo "... src/Math.i"
 	@echo "... src/Math.s"
+	@echo "... src/Mesh.o"
+	@echo "... src/Mesh.i"
+	@echo "... src/Mesh.s"
 	@echo "... src/MoveComponent.o"
 	@echo "... src/MoveComponent.i"
 	@echo "... src/MoveComponent.s"
 	@echo "... src/Random.o"
 	@echo "... src/Random.i"
 	@echo "... src/Random.s"
+	@echo "... src/Renderer.o"
+	@echo "... src/Renderer.i"
+	@echo "... src/Renderer.s"
 	@echo "... src/Shader.o"
 	@echo "... src/Shader.i"
 	@echo "... src/Shader.s"

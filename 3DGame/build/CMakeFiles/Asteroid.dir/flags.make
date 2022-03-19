@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/include/SDL2 -I/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/include 
+CXX_INCLUDES = -isystem /usr/include/SDL2 -I/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/include 
 

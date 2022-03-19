@@ -11,10 +11,8 @@
 #include "Shader.hpp"
 #include "Texture.hpp"
 
-#define SCREEN_WIDTH    1024
-#define SCREEN_HEIGHT   768
 
-
+class Renderer;
 class Actor;
 
 class Game
@@ -29,33 +27,21 @@ public:
     void AddActor(Actor* actor);
     void RemoveActor(Actor* actor);
 
-    void AddSprite(SpriteComponent* sprite);
-    void RemoveSprite(SpriteComponent* sprite);
-
-    Texture* GetTexture(const std::string& fileName);
+    Renderer* GetRenderer() { return mRenderer; }
 private:
     void ProcessInput();
     void UpdateGame();
     void GenerateOutput();
-    bool LoadShader();
-    void CreateSpriteVerts();
     void LoadData();
     void UnloadData();
-// member variable
-    SDL_Window* mWindow;
-    SDL_GLContext mContext;
-    uint32_t mTickCount;
 
-    std::unordered_map<std::string, Texture*> mTextures;
+    uint32_t mTickCount;
 
     std::vector<Actor*> mActors;
     std::vector<Actor*> mPendingActors;
-
-    VertexArray* mSpriteVerts;
-    Shader* mSpriteShader;
-
-    std::vector<SpriteComponent*> mSprites;
     bool mIsUpdatingActors;
+
+    Renderer* mRenderer;
 
     bool mIsRunning;
 };

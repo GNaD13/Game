@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44af3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_44af3.dir/build.make CMakeFiles/cmTC_44af3.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_44af3.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_44af3.dir/CheckSymbolExists.c.o   -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_44af3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44af3.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_44af3.dir/CheckSymbolExists.c.o  -o cmTC_44af3 
-CMakeFiles/cmTC_44af3.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_90a97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90a97.dir/build.make CMakeFiles/cmTC_90a97.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90a97.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_90a97.dir/CheckSymbolExists.c.o   -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_90a97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90a97.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_90a97.dir/CheckSymbolExists.c.o  -o cmTC_90a97 
+CMakeFiles/cmTC_90a97.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_44af3.dir/build.make:97: recipe for target 'cmTC_44af3' failed
-make[1]: *** [cmTC_44af3] Error 1
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_44af3/fast' failed
-make: *** [cmTC_44af3/fast] Error 2
+CMakeFiles/cmTC_90a97.dir/build.make:97: recipe for target 'cmTC_90a97' failed
+make[1]: *** [cmTC_90a97] Error 1
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_90a97/fast' failed
+make: *** [cmTC_90a97/fast] Error 2
 
-File /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/CMakeTmp
+Change Dir: /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9d1d0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9d1d0.dir/build.make CMakeFiles/cmTC_9d1d0.dir/build
-make[1]: Entering directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9d1d0.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9d1d0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9d1d0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d1d0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9d1d0.dir/CheckFunctionExists.c.o  -o cmTC_9d1d0 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_a3cac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3cac.dir/build.make CMakeFiles/cmTC_a3cac.dir/build
+make[1]: Entering directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3cac.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a3cac.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a3cac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3cac.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a3cac.dir/CheckFunctionExists.c.o  -o cmTC_a3cac -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9d1d0.dir/build.make:97: recipe for target 'cmTC_9d1d0' failed
-make[1]: *** [cmTC_9d1d0] Error 1
-make[1]: Leaving directory '/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9d1d0/fast' failed
-make: *** [cmTC_9d1d0/fast] Error 2
+CMakeFiles/cmTC_a3cac.dir/build.make:97: recipe for target 'cmTC_a3cac' failed
+make[1]: *** [cmTC_a3cac] Error 1
+make[1]: Leaving directory '/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a3cac/fast' failed
+make: *** [cmTC_a3cac/fast] Error 2
 
 

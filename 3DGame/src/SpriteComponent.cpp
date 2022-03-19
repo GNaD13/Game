@@ -2,6 +2,7 @@
 #include "Actor.hpp"
 #include "Game.hpp"
 #include "Shader.hpp"
+#include "Renderer.hpp"
 #include <iostream>
 
 SpriteComponent::SpriteComponent(Actor* owner, int drawOrder)
@@ -11,12 +12,12 @@ SpriteComponent::SpriteComponent(Actor* owner, int drawOrder)
         mTexWidth(64),
         mTexHeight(64)
 {
-    mOwner->GetGame()->AddSprite(this);
+    mOwner->GetGame()->GetRenderer()->AddSprite(this);
 }
 
 SpriteComponent::~SpriteComponent()
 {
-    mOwner->GetGame()->RemoveSprite(this);
+    mOwner->GetGame()->GetRenderer()->RemoveSprite(this);
 }
 
 void SpriteComponent::Draw(Shader* shader)

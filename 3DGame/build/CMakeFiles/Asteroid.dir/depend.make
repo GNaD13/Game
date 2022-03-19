@@ -22,15 +22,12 @@ CMakeFiles/Asteroid.dir/src/Component.cpp.o: ../src/Component.cpp
 CMakeFiles/Asteroid.dir/src/Component.cpp.o: ../src/Component.hpp
 CMakeFiles/Asteroid.dir/src/Component.cpp.o: ../src/Math.h
 
-CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../include/rapidjson/allocators.h
-CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../include/rapidjson/msinttypes/inttypes.h
-CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../include/rapidjson/msinttypes/stdint.h
-CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../include/rapidjson/rapidjson.h
 CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/Actor.hpp
 CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/Component.hpp
 CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/Game.cpp
 CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/Game.hpp
 CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/Math.h
+CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/Renderer.hpp
 CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/Shader.hpp
 CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/SpriteComponent.hpp
 CMakeFiles/Asteroid.dir/src/Game.cpp.o: ../src/Texture.hpp
@@ -44,6 +41,36 @@ CMakeFiles/Asteroid.dir/src/InputComponent.cpp.o: ../src/MoveComponent.hpp
 CMakeFiles/Asteroid.dir/src/Math.cpp.o: ../src/Math.cpp
 CMakeFiles/Asteroid.dir/src/Math.cpp.o: ../src/Math.h
 
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/allocators.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/document.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/encodedstream.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/encodings.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/error/error.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/biginteger.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/diyfp.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/ieee754.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/meta.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/pow10.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/stack.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/strfunc.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/strtod.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/internal/swap.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/memorystream.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/msinttypes/inttypes.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/msinttypes/stdint.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/rapidjson.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/reader.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../include/rapidjson/stream.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/Component.hpp
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/Game.hpp
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/Math.h
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/Mesh.cpp
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/Mesh.hpp
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/Shader.hpp
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/SpriteComponent.hpp
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/Texture.hpp
+CMakeFiles/Asteroid.dir/src/Mesh.cpp.o: ../src/VertexArray.hpp
+
 CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o: ../src/Actor.hpp
 CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o: ../src/Component.hpp
 CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o: ../src/Math.h
@@ -54,6 +81,16 @@ CMakeFiles/Asteroid.dir/src/Random.cpp.o: ../src/Math.h
 CMakeFiles/Asteroid.dir/src/Random.cpp.o: ../src/Random.cpp
 CMakeFiles/Asteroid.dir/src/Random.cpp.o: ../src/Random.h
 
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/Component.hpp
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/Game.hpp
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/Math.h
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/Renderer.hpp
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/Shader.hpp
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/SpriteComponent.hpp
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/Texture.hpp
+CMakeFiles/Asteroid.dir/src/Renderer.cpp.o: ../src/VertexArray.hpp
+
 CMakeFiles/Asteroid.dir/src/Shader.cpp.o: ../src/Math.h
 CMakeFiles/Asteroid.dir/src/Shader.cpp.o: ../src/Shader.cpp
 CMakeFiles/Asteroid.dir/src/Shader.cpp.o: ../src/Shader.hpp
@@ -62,6 +99,7 @@ CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/Actor.hpp
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/Component.hpp
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/Game.hpp
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/Math.h
+CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/Renderer.hpp
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/Shader.hpp
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/SpriteComponent.cpp
 CMakeFiles/Asteroid.dir/src/SpriteComponent.cpp.o: ../src/SpriteComponent.hpp
