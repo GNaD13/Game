@@ -1,5 +1,6 @@
 #include "Mesh.hpp"
 #include "Renderer.hpp"
+#include "VertexArray.hpp"
 #include <fstream>
 #include <sstream>
 #include <string>
@@ -83,16 +84,66 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
     mRadius = 0.0f;
     for(rapidjson::SizeType i = 0; i < vertsJson.Size(); i++)
     {
-        const rapidjson::Value& 
+        const rapidjson::Value& vert = vertsJson[i];
+        if(!vert.IsArray() || vert.Size() != vertSize)
+        {
+            SDL_Log("Unexpected vertex format for %s", fileName.c_str());
+            return false;
+        }
+
+        Vector3 pos(vert[0].GetDouble(), vert[1].GetDouble(), vert[2].GetDouble());
+        mRadius = Math::Max(mRadius, pos.LengthSq());
+        
+        for(rapidjson::SizeType i = 0; i < vert.Size(); i++)
+        {
+            verticies.emplace_back(static_cast<float>(vert[i].GetDouble()));
+        }
     }
+
+    mRadius = Math::Sqrt(mRadius);
+
+    const rapidjson::Value& indJson = doc["indicies"];
+    if(!indJson.IsArray() || indJson.Size() < 1)
+    {
+        SDL_Log("Mesh %s has no indicies", fileName.c_str());
+        return false;
+    }
+
+    std::vector<unsigned int> indicies;
+    indicies.reserve(indJson.Size() * 3);
+    for(rapidjson::SizeType i = 0; i < indJson.Size(); i++)
+    {
+        const rapidjson::Value& ind = indJson[i];
+        if(!ind.IsArray() || ind.Size() != 3)
+        {
+            SDL_Log("Unexpected indicies format for %s", fileName.c_str());
+            return false;
+        }
+
+        indicies.emplace_back(ind[0].GetInt());
+        indicies.emplace_back(ind[1].GetInt());
+        indicies.emplace_back(ind[2].GetInt());
+    }
+
+    mVertexArray = new VertexArray(verticies.data(), (unsigned int)(verticies.size() / vertSize), indicies.data(), (unsigned int)(indicies.size()));
+    return true;
 }
 
 void Mesh::Unload()
 {
-
+    delete mVertexArray;
+    mVertexArray = nullptr;
 }
 
 Texture* Mesh::GetTexture(size_t index)
 {
-
+    if(index < mTextures.size())
+    {
+        return mTextures[index];
+    }
+    else
+    {
+        return nullptr;
+    }
+    
 }

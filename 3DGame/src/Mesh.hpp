@@ -15,7 +15,7 @@ public:
     Mesh();
     ~Mesh();
 
-    bool Load(const std::string& fileName, Renderer* game);
+    bool Load(const std::string& fileName, Renderer* renderer);
     void Unload();
 
     Texture* GetTexture(size_t index);

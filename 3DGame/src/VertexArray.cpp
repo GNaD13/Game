@@ -1,7 +1,7 @@
 #include "VertexArray.hpp"
 #include <GL/glew.h>
 
-VertexArray::VertexArray(const float* verticies, unsigned int numVerts, const int* indicies, unsigned int numIndicies)
+VertexArray::VertexArray(const float* verticies, unsigned int numVerts, const unsigned int* indicies, unsigned int numIndicies)
     :   mNumVerts(numVerts),
         mNumIndicies(numIndicies)
 {

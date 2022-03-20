@@ -4,7 +4,7 @@
 class VertexArray
 {
 public:
-    VertexArray(const float* verticies, unsigned int numVerts, const int* indicies, unsigned int numIndicies);
+    VertexArray(const float* verticies, unsigned int numVerts, const unsigned int* indicies, unsigned int numIndicies);
     ~VertexArray();
 
     void SetActive();
