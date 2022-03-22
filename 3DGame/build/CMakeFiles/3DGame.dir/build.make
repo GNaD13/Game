@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame
+CMAKE_SOURCE_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build
+CMAKE_BINARY_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/3DGame.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/3DGame.dir/flags.make
 
 CMakeFiles/3DGame.dir/src/Actor.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Actor.cpp.o: ../src/Actor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3DGame.dir/src/Actor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Actor.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3DGame.dir/src/Actor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Actor.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.cpp
 
 CMakeFiles/3DGame.dir/src/Actor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Actor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.cpp > CMakeFiles/3DGame.dir/src/Actor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.cpp > CMakeFiles/3DGame.dir/src/Actor.cpp.i
 
 CMakeFiles/3DGame.dir/src/Actor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Actor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.cpp -o CMakeFiles/3DGame.dir/src/Actor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.cpp -o CMakeFiles/3DGame.dir/src/Actor.cpp.s
 
 CMakeFiles/3DGame.dir/src/Actor.cpp.o.requires:
 
@@ -81,18 +81,42 @@ CMakeFiles/3DGame.dir/src/Actor.cpp.o.provides: CMakeFiles/3DGame.dir/src/Actor.
 CMakeFiles/3DGame.dir/src/Actor.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/Actor.cpp.o
 
 
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: CMakeFiles/3DGame.dir/flags.make
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/CameraActor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3DGame.dir/src/CameraActor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/CameraActor.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CameraActor.cpp
+
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/CameraActor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CameraActor.cpp > CMakeFiles/3DGame.dir/src/CameraActor.cpp.i
+
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/CameraActor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CameraActor.cpp -o CMakeFiles/3DGame.dir/src/CameraActor.cpp.s
+
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o.requires:
+
+.PHONY : CMakeFiles/3DGame.dir/src/CameraActor.cpp.o.requires
+
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o.provides: CMakeFiles/3DGame.dir/src/CameraActor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/CameraActor.cpp.o.provides.build
+.PHONY : CMakeFiles/3DGame.dir/src/CameraActor.cpp.o.provides
+
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/CameraActor.cpp.o
+
+
 CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o: ../src/CircleComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/CircleComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CircleComponent.cpp
 
 CMakeFiles/3DGame.dir/src/CircleComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/CircleComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/CircleComponent.cpp > CMakeFiles/3DGame.dir/src/CircleComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CircleComponent.cpp > CMakeFiles/3DGame.dir/src/CircleComponent.cpp.i
 
 CMakeFiles/3DGame.dir/src/CircleComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/CircleComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/CircleComponent.cpp -o CMakeFiles/3DGame.dir/src/CircleComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CircleComponent.cpp -o CMakeFiles/3DGame.dir/src/CircleComponent.cpp.s
 
 CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o.requires:
 
@@ -107,16 +131,16 @@ CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o.provides.build: CMakeFiles/3DGam
 
 CMakeFiles/3DGame.dir/src/Component.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Component.cpp.o: ../src/Component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3DGame.dir/src/Component.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Component.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3DGame.dir/src/Component.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Component.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.cpp
 
 CMakeFiles/3DGame.dir/src/Component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Component.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.cpp > CMakeFiles/3DGame.dir/src/Component.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.cpp > CMakeFiles/3DGame.dir/src/Component.cpp.i
 
 CMakeFiles/3DGame.dir/src/Component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Component.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.cpp -o CMakeFiles/3DGame.dir/src/Component.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.cpp -o CMakeFiles/3DGame.dir/src/Component.cpp.s
 
 CMakeFiles/3DGame.dir/src/Component.cpp.o.requires:
 
@@ -131,16 +155,16 @@ CMakeFiles/3DGame.dir/src/Component.cpp.o.provides.build: CMakeFiles/3DGame.dir/
 
 CMakeFiles/3DGame.dir/src/Game.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3DGame.dir/src/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Game.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3DGame.dir/src/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Game.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.cpp
 
 CMakeFiles/3DGame.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.cpp > CMakeFiles/3DGame.dir/src/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.cpp > CMakeFiles/3DGame.dir/src/Game.cpp.i
 
 CMakeFiles/3DGame.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.cpp -o CMakeFiles/3DGame.dir/src/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.cpp -o CMakeFiles/3DGame.dir/src/Game.cpp.s
 
 CMakeFiles/3DGame.dir/src/Game.cpp.o.requires:
 
@@ -155,16 +179,16 @@ CMakeFiles/3DGame.dir/src/Game.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/G
 
 CMakeFiles/3DGame.dir/src/InputComponent.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/InputComponent.cpp.o: ../src/InputComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3DGame.dir/src/InputComponent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/InputComponent.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/InputComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/3DGame.dir/src/InputComponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/InputComponent.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/InputComponent.cpp
 
 CMakeFiles/3DGame.dir/src/InputComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/InputComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/InputComponent.cpp > CMakeFiles/3DGame.dir/src/InputComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/InputComponent.cpp > CMakeFiles/3DGame.dir/src/InputComponent.cpp.i
 
 CMakeFiles/3DGame.dir/src/InputComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/InputComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/InputComponent.cpp -o CMakeFiles/3DGame.dir/src/InputComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/InputComponent.cpp -o CMakeFiles/3DGame.dir/src/InputComponent.cpp.s
 
 CMakeFiles/3DGame.dir/src/InputComponent.cpp.o.requires:
 
@@ -179,16 +203,16 @@ CMakeFiles/3DGame.dir/src/InputComponent.cpp.o.provides.build: CMakeFiles/3DGame
 
 CMakeFiles/3DGame.dir/src/Math.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Math.cpp.o: ../src/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/3DGame.dir/src/Math.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Math.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/3DGame.dir/src/Math.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Math.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.cpp
 
 CMakeFiles/3DGame.dir/src/Math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Math.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.cpp > CMakeFiles/3DGame.dir/src/Math.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.cpp > CMakeFiles/3DGame.dir/src/Math.cpp.i
 
 CMakeFiles/3DGame.dir/src/Math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Math.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.cpp -o CMakeFiles/3DGame.dir/src/Math.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.cpp -o CMakeFiles/3DGame.dir/src/Math.cpp.s
 
 CMakeFiles/3DGame.dir/src/Math.cpp.o.requires:
 
@@ -203,16 +227,16 @@ CMakeFiles/3DGame.dir/src/Math.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/M
 
 CMakeFiles/3DGame.dir/src/Mesh.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Mesh.cpp.o: ../src/Mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/3DGame.dir/src/Mesh.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Mesh.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/3DGame.dir/src/Mesh.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Mesh.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.cpp
 
 CMakeFiles/3DGame.dir/src/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Mesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Mesh.cpp > CMakeFiles/3DGame.dir/src/Mesh.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.cpp > CMakeFiles/3DGame.dir/src/Mesh.cpp.i
 
 CMakeFiles/3DGame.dir/src/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Mesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Mesh.cpp -o CMakeFiles/3DGame.dir/src/Mesh.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.cpp -o CMakeFiles/3DGame.dir/src/Mesh.cpp.s
 
 CMakeFiles/3DGame.dir/src/Mesh.cpp.o.requires:
 
@@ -227,16 +251,16 @@ CMakeFiles/3DGame.dir/src/Mesh.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/M
 
 CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o: ../src/MeshComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MeshComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.cpp
 
 CMakeFiles/3DGame.dir/src/MeshComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/MeshComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MeshComponent.cpp > CMakeFiles/3DGame.dir/src/MeshComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.cpp > CMakeFiles/3DGame.dir/src/MeshComponent.cpp.i
 
 CMakeFiles/3DGame.dir/src/MeshComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/MeshComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MeshComponent.cpp -o CMakeFiles/3DGame.dir/src/MeshComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.cpp -o CMakeFiles/3DGame.dir/src/MeshComponent.cpp.s
 
 CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o.requires:
 
@@ -251,16 +275,16 @@ CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o.provides.build: CMakeFiles/3DGame.
 
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o: ../src/MoveComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MoveComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.cpp
 
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/MoveComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MoveComponent.cpp > CMakeFiles/3DGame.dir/src/MoveComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.cpp > CMakeFiles/3DGame.dir/src/MoveComponent.cpp.i
 
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/MoveComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MoveComponent.cpp -o CMakeFiles/3DGame.dir/src/MoveComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.cpp -o CMakeFiles/3DGame.dir/src/MoveComponent.cpp.s
 
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o.requires:
 
@@ -273,18 +297,42 @@ CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o.provides: CMakeFiles/3DGame.dir/sr
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o
 
 
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: CMakeFiles/3DGame.dir/flags.make
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/PlaneActor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/PlaneActor.cpp
+
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/PlaneActor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/PlaneActor.cpp > CMakeFiles/3DGame.dir/src/PlaneActor.cpp.i
+
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/PlaneActor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/PlaneActor.cpp -o CMakeFiles/3DGame.dir/src/PlaneActor.cpp.s
+
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o.requires:
+
+.PHONY : CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o.requires
+
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o.provides: CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o.provides.build
+.PHONY : CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o.provides
+
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o
+
+
 CMakeFiles/3DGame.dir/src/Random.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Random.cpp.o: ../src/Random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/3DGame.dir/src/Random.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Random.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/3DGame.dir/src/Random.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Random.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Random.cpp
 
 CMakeFiles/3DGame.dir/src/Random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Random.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Random.cpp > CMakeFiles/3DGame.dir/src/Random.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Random.cpp > CMakeFiles/3DGame.dir/src/Random.cpp.i
 
 CMakeFiles/3DGame.dir/src/Random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Random.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Random.cpp -o CMakeFiles/3DGame.dir/src/Random.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Random.cpp -o CMakeFiles/3DGame.dir/src/Random.cpp.s
 
 CMakeFiles/3DGame.dir/src/Random.cpp.o.requires:
 
@@ -299,16 +347,16 @@ CMakeFiles/3DGame.dir/src/Random.cpp.o.provides.build: CMakeFiles/3DGame.dir/src
 
 CMakeFiles/3DGame.dir/src/Renderer.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/3DGame.dir/src/Renderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Renderer.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/3DGame.dir/src/Renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Renderer.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.cpp
 
 CMakeFiles/3DGame.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.cpp > CMakeFiles/3DGame.dir/src/Renderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.cpp > CMakeFiles/3DGame.dir/src/Renderer.cpp.i
 
 CMakeFiles/3DGame.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.cpp -o CMakeFiles/3DGame.dir/src/Renderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.cpp -o CMakeFiles/3DGame.dir/src/Renderer.cpp.s
 
 CMakeFiles/3DGame.dir/src/Renderer.cpp.o.requires:
 
@@ -323,16 +371,16 @@ CMakeFiles/3DGame.dir/src/Renderer.cpp.o.provides.build: CMakeFiles/3DGame.dir/s
 
 CMakeFiles/3DGame.dir/src/Shader.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Shader.cpp.o: ../src/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/3DGame.dir/src/Shader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Shader.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/3DGame.dir/src/Shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Shader.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.cpp
 
 CMakeFiles/3DGame.dir/src/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.cpp > CMakeFiles/3DGame.dir/src/Shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.cpp > CMakeFiles/3DGame.dir/src/Shader.cpp.i
 
 CMakeFiles/3DGame.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.cpp -o CMakeFiles/3DGame.dir/src/Shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.cpp -o CMakeFiles/3DGame.dir/src/Shader.cpp.s
 
 CMakeFiles/3DGame.dir/src/Shader.cpp.o.requires:
 
@@ -347,16 +395,16 @@ CMakeFiles/3DGame.dir/src/Shader.cpp.o.provides.build: CMakeFiles/3DGame.dir/src
 
 CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.o: ../src/SpriteComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/SpriteComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/SpriteComponent.cpp
 
 CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/SpriteComponent.cpp > CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/SpriteComponent.cpp > CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.i
 
 CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/SpriteComponent.cpp -o CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/SpriteComponent.cpp -o CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.s
 
 CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.o.requires:
 
@@ -371,16 +419,16 @@ CMakeFiles/3DGame.dir/src/SpriteComponent.cpp.o.provides.build: CMakeFiles/3DGam
 
 CMakeFiles/3DGame.dir/src/Texture.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/Texture.cpp.o: ../src/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/3DGame.dir/src/Texture.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Texture.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/3DGame.dir/src/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/Texture.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Texture.cpp
 
 CMakeFiles/3DGame.dir/src/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Texture.cpp > CMakeFiles/3DGame.dir/src/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Texture.cpp > CMakeFiles/3DGame.dir/src/Texture.cpp.i
 
 CMakeFiles/3DGame.dir/src/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Texture.cpp -o CMakeFiles/3DGame.dir/src/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Texture.cpp -o CMakeFiles/3DGame.dir/src/Texture.cpp.s
 
 CMakeFiles/3DGame.dir/src/Texture.cpp.o.requires:
 
@@ -395,16 +443,16 @@ CMakeFiles/3DGame.dir/src/Texture.cpp.o.provides.build: CMakeFiles/3DGame.dir/sr
 
 CMakeFiles/3DGame.dir/src/VertexArray.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/3DGame.dir/src/VertexArray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/VertexArray.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/3DGame.dir/src/VertexArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/VertexArray.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.cpp
 
 CMakeFiles/3DGame.dir/src/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/VertexArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.cpp > CMakeFiles/3DGame.dir/src/VertexArray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.cpp > CMakeFiles/3DGame.dir/src/VertexArray.cpp.i
 
 CMakeFiles/3DGame.dir/src/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/VertexArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.cpp -o CMakeFiles/3DGame.dir/src/VertexArray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.cpp -o CMakeFiles/3DGame.dir/src/VertexArray.cpp.s
 
 CMakeFiles/3DGame.dir/src/VertexArray.cpp.o.requires:
 
@@ -419,16 +467,16 @@ CMakeFiles/3DGame.dir/src/VertexArray.cpp.o.provides.build: CMakeFiles/3DGame.di
 
 CMakeFiles/3DGame.dir/src/main.cpp.o: CMakeFiles/3DGame.dir/flags.make
 CMakeFiles/3DGame.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/3DGame.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/main.cpp.o -c /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/3DGame.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DGame.dir/src/main.cpp.o -c /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/main.cpp
 
 CMakeFiles/3DGame.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DGame.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/main.cpp > CMakeFiles/3DGame.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/main.cpp > CMakeFiles/3DGame.dir/src/main.cpp.i
 
 CMakeFiles/3DGame.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DGame.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/main.cpp -o CMakeFiles/3DGame.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/main.cpp -o CMakeFiles/3DGame.dir/src/main.cpp.s
 
 CMakeFiles/3DGame.dir/src/main.cpp.o.requires:
 
@@ -444,6 +492,7 @@ CMakeFiles/3DGame.dir/src/main.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/m
 # Object files for target 3DGame
 3DGame_OBJECTS = \
 "CMakeFiles/3DGame.dir/src/Actor.cpp.o" \
+"CMakeFiles/3DGame.dir/src/CameraActor.cpp.o" \
 "CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o" \
 "CMakeFiles/3DGame.dir/src/Component.cpp.o" \
 "CMakeFiles/3DGame.dir/src/Game.cpp.o" \
@@ -452,6 +501,7 @@ CMakeFiles/3DGame.dir/src/main.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/m
 "CMakeFiles/3DGame.dir/src/Mesh.cpp.o" \
 "CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o" \
 "CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o" \
+"CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o" \
 "CMakeFiles/3DGame.dir/src/Random.cpp.o" \
 "CMakeFiles/3DGame.dir/src/Renderer.cpp.o" \
 "CMakeFiles/3DGame.dir/src/Shader.cpp.o" \
@@ -464,6 +514,7 @@ CMakeFiles/3DGame.dir/src/main.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/m
 3DGame_EXTERNAL_OBJECTS =
 
 3DGame: CMakeFiles/3DGame.dir/src/Actor.cpp.o
+3DGame: CMakeFiles/3DGame.dir/src/CameraActor.cpp.o
 3DGame: CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o
 3DGame: CMakeFiles/3DGame.dir/src/Component.cpp.o
 3DGame: CMakeFiles/3DGame.dir/src/Game.cpp.o
@@ -472,6 +523,7 @@ CMakeFiles/3DGame.dir/src/main.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/m
 3DGame: CMakeFiles/3DGame.dir/src/Mesh.cpp.o
 3DGame: CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o
 3DGame: CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o
+3DGame: CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o
 3DGame: CMakeFiles/3DGame.dir/src/Random.cpp.o
 3DGame: CMakeFiles/3DGame.dir/src/Renderer.cpp.o
 3DGame: CMakeFiles/3DGame.dir/src/Shader.cpp.o
@@ -481,12 +533,11 @@ CMakeFiles/3DGame.dir/src/main.cpp.o.provides.build: CMakeFiles/3DGame.dir/src/m
 3DGame: CMakeFiles/3DGame.dir/src/main.cpp.o
 3DGame: CMakeFiles/3DGame.dir/build.make
 3DGame: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
-3DGame: /usr/lib/x86_64-linux-gnu/libGL.so
 3DGame: /usr/lib/x86_64-linux-gnu/libGLEW.so
 3DGame: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 3DGame: /usr/lib/x86_64-linux-gnu/libSDL2.so
 3DGame: CMakeFiles/3DGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable 3DGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable 3DGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3DGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -495,6 +546,7 @@ CMakeFiles/3DGame.dir/build: 3DGame
 .PHONY : CMakeFiles/3DGame.dir/build
 
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/Actor.cpp.o.requires
+CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/CameraActor.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/Component.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/Game.cpp.o.requires
@@ -503,6 +555,7 @@ CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/Math.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/Mesh.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o.requires
+CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/Random.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/Renderer.cpp.o.requires
 CMakeFiles/3DGame.dir/requires: CMakeFiles/3DGame.dir/src/Shader.cpp.o.requires
@@ -518,6 +571,6 @@ CMakeFiles/3DGame.dir/clean:
 .PHONY : CMakeFiles/3DGame.dir/clean
 
 CMakeFiles/3DGame.dir/depend:
-	cd /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/3DGame.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/3DGame.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/3DGame.dir/depend
 

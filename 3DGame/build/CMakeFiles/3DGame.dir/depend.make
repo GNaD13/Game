@@ -11,6 +11,19 @@ CMakeFiles/3DGame.dir/src/Actor.cpp.o: ../src/SpriteComponent.hpp
 CMakeFiles/3DGame.dir/src/Actor.cpp.o: ../src/Texture.hpp
 CMakeFiles/3DGame.dir/src/Actor.cpp.o: ../src/VertexArray.hpp
 
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/Actor.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/CameraActor.cpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/CameraActor.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/Component.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/Game.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/Math.h
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/MoveComponent.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/Renderer.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/Shader.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/SpriteComponent.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/Texture.hpp
+CMakeFiles/3DGame.dir/src/CameraActor.cpp.o: ../src/VertexArray.hpp
+
 CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o: ../src/Actor.hpp
 CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o: ../src/CircleComponent.cpp
 CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o: ../src/CircleComponent.hpp
@@ -23,11 +36,13 @@ CMakeFiles/3DGame.dir/src/Component.cpp.o: ../src/Component.hpp
 CMakeFiles/3DGame.dir/src/Component.cpp.o: ../src/Math.h
 
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Actor.hpp
+CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/CameraActor.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Component.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Game.cpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Game.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Math.h
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/MeshComponent.hpp
+CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/PlaneActor.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Renderer.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Shader.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/SpriteComponent.hpp
@@ -106,6 +121,19 @@ CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o: ../src/Component.hpp
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o: ../src/Math.h
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o: ../src/MoveComponent.cpp
 CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o: ../src/MoveComponent.hpp
+
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/Actor.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/Component.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/Game.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/Math.h
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/MeshComponent.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/PlaneActor.cpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/PlaneActor.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/Renderer.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/Shader.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/SpriteComponent.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/Texture.hpp
+CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o: ../src/VertexArray.hpp
 
 CMakeFiles/3DGame.dir/src/Random.cpp.o: ../src/Math.h
 CMakeFiles/3DGame.dir/src/Random.cpp.o: ../src/Random.cpp

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/3DGame.dir/src/Actor.cpp.o"
+  "CMakeFiles/3DGame.dir/src/CameraActor.cpp.o"
   "CMakeFiles/3DGame.dir/src/CircleComponent.cpp.o"
   "CMakeFiles/3DGame.dir/src/Component.cpp.o"
   "CMakeFiles/3DGame.dir/src/Game.cpp.o"
@@ -8,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/3DGame.dir/src/Mesh.cpp.o"
   "CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o"
   "CMakeFiles/3DGame.dir/src/MoveComponent.cpp.o"
+  "CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o"
   "CMakeFiles/3DGame.dir/src/Random.cpp.o"
   "CMakeFiles/3DGame.dir/src/Renderer.cpp.o"
   "CMakeFiles/3DGame.dir/src/Shader.cpp.o"

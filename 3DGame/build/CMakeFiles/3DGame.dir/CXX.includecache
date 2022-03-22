@@ -182,61 +182,79 @@ rapidjson.h
 encodings.h
 ../include/rapidjson/encodings.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.cpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.hpp
 algorithm
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
 vector
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.h
 stdint.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/CircleComponent.cpp
-CircleComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/CircleComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CameraActor.cpp
+CameraActor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CameraActor.hpp
+MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.hpp
+Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
+Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CameraActor.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CircleComponent.cpp
+CircleComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CircleComponent.hpp
+Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
 iostream
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/CircleComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CircleComponent.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.hpp
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.cpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.hpp
 stdint.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.cpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
 algorithm
 -
 Renderer.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
 MeshComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MeshComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.hpp
+CameraActor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CameraActor.hpp
+PlaneActor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/PlaneActor.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
 vector
 -
 SDL2/SDL.h
@@ -248,27 +266,27 @@ GL/glew.h
 unordered_map
 -
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/SpriteComponent.hpp
 VertexArray.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.hpp
 Shader.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.hpp
 Texture.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Texture.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Texture.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/InputComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/InputComponent.cpp
 InputComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/InputComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/InputComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/InputComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/InputComponent.hpp
 MoveComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.cpp
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.h
 cmath
 -
 memory.h
@@ -276,13 +294,13 @@ memory.h
 limits
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Mesh.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.cpp
 Mesh.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Mesh.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.hpp
 Renderer.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
 VertexArray.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.hpp
 fstream
 -
 sstream
@@ -290,7 +308,7 @@ sstream
 string
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Mesh.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.hpp
 string
 -
 vector
@@ -298,63 +316,77 @@ vector
 rapidjson/document.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MeshComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.cpp
 MeshComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MeshComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
 Renderer.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
 Shader.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.hpp
 Mesh.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Mesh.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MeshComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.hpp
 cstddef
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MoveComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.cpp
 MoveComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Random.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/PlaneActor.cpp
+PlaneActor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/PlaneActor.hpp
+Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
+Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
+MeshComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/PlaneActor.hpp
+Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Random.cpp
 Random.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Random.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Random.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Random.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Random.h
 random
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.cpp
 algorithm
 -
 Renderer.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
 VertexArray.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
 Shader.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.hpp
 Mesh.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Mesh.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.hpp
 MeshComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/MeshComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
 string
 -
 vector
@@ -364,11 +396,11 @@ unordered_map
 SDL2/SDL.h
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.cpp
 Shader.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.hpp
 fstream
 -
 sstream
@@ -376,65 +408,65 @@ sstream
 SDL2/SDL.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.hpp
 string
 -
 GL/glew.h
 -
 Math.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/SpriteComponent.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/SpriteComponent.cpp
 SpriteComponent.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/SpriteComponent.hpp
 Actor.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
 Shader.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Shader.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Shader.hpp
 Renderer.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
 iostream
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/SpriteComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/SpriteComponent.hpp
 Component.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Component.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.hpp
 SDL2/SDL.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Texture.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Texture.cpp
 Texture.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Texture.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Texture.hpp
 GL/glew.h
 -
 SDL2/SDL.h
 -
 vendor/stb_image.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/vendor/stb_image.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/vendor/stb_image.h
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Texture.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Texture.hpp
 string
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.cpp
 VertexArray.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.hpp
 GL/glew.h
 -
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/VertexArray.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/VertexArray.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/main.cpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/main.cpp
 iostream
 -
 Game.hpp
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
 
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/vendor/stb_image.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/vendor/stb_image.h
 stb_image.h
-/home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/src/vendor/stb_image.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/vendor/stb_image.h
 stdio.h
 -
 stdlib.h

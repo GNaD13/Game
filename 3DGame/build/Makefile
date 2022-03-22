@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame
+CMAKE_SOURCE_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build
+CMAKE_BINARY_DIR = /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangvhb/dangvhbWork2/Game/gamedev/dangvhbcode/Game/3DGame/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ src/Actor.s: src/Actor.cpp.s
 src/Actor.cpp.s:
 	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/Actor.cpp.s
 .PHONY : src/Actor.cpp.s
+
+src/CameraActor.o: src/CameraActor.cpp.o
+
+.PHONY : src/CameraActor.o
+
+# target to build an object file
+src/CameraActor.cpp.o:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/CameraActor.cpp.o
+.PHONY : src/CameraActor.cpp.o
+
+src/CameraActor.i: src/CameraActor.cpp.i
+
+.PHONY : src/CameraActor.i
+
+# target to preprocess a source file
+src/CameraActor.cpp.i:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/CameraActor.cpp.i
+.PHONY : src/CameraActor.cpp.i
+
+src/CameraActor.s: src/CameraActor.cpp.s
+
+.PHONY : src/CameraActor.s
+
+# target to generate assembly for a file
+src/CameraActor.cpp.s:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/CameraActor.cpp.s
+.PHONY : src/CameraActor.cpp.s
 
 src/CircleComponent.o: src/CircleComponent.cpp.o
 
@@ -366,6 +393,33 @@ src/MoveComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/MoveComponent.cpp.s
 .PHONY : src/MoveComponent.cpp.s
 
+src/PlaneActor.o: src/PlaneActor.cpp.o
+
+.PHONY : src/PlaneActor.o
+
+# target to build an object file
+src/PlaneActor.cpp.o:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/PlaneActor.cpp.o
+.PHONY : src/PlaneActor.cpp.o
+
+src/PlaneActor.i: src/PlaneActor.cpp.i
+
+.PHONY : src/PlaneActor.i
+
+# target to preprocess a source file
+src/PlaneActor.cpp.i:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/PlaneActor.cpp.i
+.PHONY : src/PlaneActor.cpp.i
+
+src/PlaneActor.s: src/PlaneActor.cpp.s
+
+.PHONY : src/PlaneActor.s
+
+# target to generate assembly for a file
+src/PlaneActor.cpp.s:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/PlaneActor.cpp.s
+.PHONY : src/PlaneActor.cpp.s
+
 src/Random.o: src/Random.cpp.o
 
 .PHONY : src/Random.o
@@ -567,6 +621,9 @@ help:
 	@echo "... src/Actor.o"
 	@echo "... src/Actor.i"
 	@echo "... src/Actor.s"
+	@echo "... src/CameraActor.o"
+	@echo "... src/CameraActor.i"
+	@echo "... src/CameraActor.s"
 	@echo "... src/CircleComponent.o"
 	@echo "... src/CircleComponent.i"
 	@echo "... src/CircleComponent.s"
@@ -591,6 +648,9 @@ help:
 	@echo "... src/MoveComponent.o"
 	@echo "... src/MoveComponent.i"
 	@echo "... src/MoveComponent.s"
+	@echo "... src/PlaneActor.o"
+	@echo "... src/PlaneActor.i"
+	@echo "... src/PlaneActor.s"
 	@echo "... src/Random.o"
 	@echo "... src/Random.i"
 	@echo "... src/Random.s"
