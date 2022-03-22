@@ -18,19 +18,19 @@ Mesh::~Mesh()
 bool Mesh::Load(const std::string& fileName, Renderer* renderer)
 {
     std::ifstream file(fileName);
-    if(!file.is_open())
-    {
-        SDL_Log("File not found %s", fileName.c_str());
-        return false;
-    }
+	if (!file.is_open())
+	{
+		SDL_Log("File not found: Mesh %s", fileName.c_str());
+		return false;
+	}
 
-    std::stringstream fileStream;
-    fileStream << file.rdbuf();
-    std::string contents = fileStream.str();
-    rapidjson::StringStream jsonStr(contents.c_str());
-
-    rapidjson::Document doc;
-    doc.ParseStream(jsonStr);
+	std::stringstream fileStream;
+	fileStream << file.rdbuf();
+	std::string contents = fileStream.str();
+	rapidjson::StringStream jsonStr(contents.c_str());
+	rapidjson::Document doc;
+	doc.ParseStream(jsonStr);
+    
     if(!doc.IsObject())
     {
         SDL_Log("Mesh %s is not valid json", fileName.c_str());
@@ -55,8 +55,6 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
         return false;
     }
 
-    mSpecPower = static_cast<float>(doc["specularPower"].GetDouble());
-
     for(rapidjson::SizeType i = 0; i < textures.Size(); i++)
     {
         std::string texName = textures[i].GetString();
@@ -72,6 +70,8 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
         mTextures.emplace_back(t);
     }
 
+    mSpecPower = static_cast<float>(doc["specularPower"].GetDouble());
+
     const rapidjson::Value& vertsJson = doc["vertices"];
     if(!vertsJson.IsArray() || vertsJson.Size() < 1)
     {
@@ -79,8 +79,8 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
         return false;
     }
 
-    std::vector<float> verticies;
-    verticies.reserve(vertsJson.Size() * vertSize);
+    std::vector<float> vertices;
+    vertices.reserve(vertsJson.Size() * vertSize);
     mRadius = 0.0f;
     for(rapidjson::SizeType i = 0; i < vertsJson.Size(); i++)
     {
@@ -96,36 +96,36 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
         
         for(rapidjson::SizeType i = 0; i < vert.Size(); i++)
         {
-            verticies.emplace_back(static_cast<float>(vert[i].GetDouble()));
+            vertices.emplace_back(static_cast<float>(vert[i].GetDouble()));
         }
     }
 
     mRadius = Math::Sqrt(mRadius);
 
-    const rapidjson::Value& indJson = doc["indicies"];
+    const rapidjson::Value& indJson = doc["indices"];
     if(!indJson.IsArray() || indJson.Size() < 1)
     {
-        SDL_Log("Mesh %s has no indicies", fileName.c_str());
+        SDL_Log("Mesh %s has no indices", fileName.c_str());
         return false;
     }
 
-    std::vector<unsigned int> indicies;
-    indicies.reserve(indJson.Size() * 3);
+    std::vector<unsigned int> indices;
+    indices.reserve(indJson.Size() * 3);
     for(rapidjson::SizeType i = 0; i < indJson.Size(); i++)
     {
         const rapidjson::Value& ind = indJson[i];
         if(!ind.IsArray() || ind.Size() != 3)
         {
-            SDL_Log("Unexpected indicies format for %s", fileName.c_str());
+            SDL_Log("Unexpected indices format for %s", fileName.c_str());
             return false;
         }
 
-        indicies.emplace_back(ind[0].GetInt());
-        indicies.emplace_back(ind[1].GetInt());
-        indicies.emplace_back(ind[2].GetInt());
+        indices.emplace_back(ind[0].GetUint());
+        indices.emplace_back(ind[1].GetUint());
+        indices.emplace_back(ind[2].GetUint());
     }
 
-    mVertexArray = new VertexArray(verticies.data(), (unsigned int)(verticies.size() / vertSize), indicies.data(), (unsigned int)(indicies.size()));
+    mVertexArray = new VertexArray(vertices.data(), (unsigned int)(vertices.size() / vertSize), indices.data(), (unsigned int)(indices.size()));
     return true;
 }
 

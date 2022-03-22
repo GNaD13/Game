@@ -22,6 +22,7 @@ public:
     VertexArray* GetVertexArray() { return mVertexArray; }
     const std::string& GetShaderName() const { return mShaderName; }
     float GetRadius() const { return mRadius; }
+    float GetSpecPower() const { return mSpecPower; }
 private:
     std::vector<Texture*> mTextures;
     VertexArray* mVertexArray;

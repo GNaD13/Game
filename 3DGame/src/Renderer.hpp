@@ -46,11 +46,17 @@ public:
     Texture* GetTexture(const std::string& fileName);
     Mesh* GetMesh(const std::string& fileName);
 
+    void SetViewMatrix(const Matrix4& view) { mView = view; }
+
+    void SetAmbientLight(const Vector3& ambient) { mAmbientLight = ambient; }
+    DirectionalLight& GetDirectionalLight() { return mDirLight; }
+
     float GetScreenWidth() const { return mScreenWidth; }
     float GetScreenHeight() const { return mScreenHeight; }
 private:
     bool LoadShaders();
     void CreateSpriteVerts();
+    void SetLightUniforms(Shader* shader);
     // Map of texture/mesh
     std::unordered_map<std::string, Texture*> mTextures;
     std::unordered_map<std::string, Mesh*> mMeshs;
@@ -74,6 +80,10 @@ private:
     // Width/Height of screen
     float mScreenWidth;
     float mScreenHeight;
+
+    // Light data
+    Vector3 mAmbientLight;
+    DirectionalLight mDirLight;
 
     // Window
     SDL_Window* mWindow;

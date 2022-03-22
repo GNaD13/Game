@@ -4,6 +4,7 @@
 #include "Game.hpp"
 #include "Shader.hpp"
 #include "Mesh.hpp"
+#include "MeshComponent.hpp"
 
 Renderer::Renderer(Game* game)
     : mGame(game)
@@ -72,10 +73,6 @@ bool Renderer::Initialize(float screenWidth, float screenHeight)
     }
 
     CreateSpriteVerts();
-
-    glEnable(GL_BLEND);
-    glEnable(GL_DEPTH_TEST);
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 }
 
 void Renderer::Shutdown()
@@ -98,16 +95,31 @@ void Renderer::UnloadData()
 
     for (auto i : mMeshs)
 	{
-        // i.second->Unload();
-        // delete i.second;
+        i.second->Unload();
+        delete i.second;
 	}
 	mMeshs.clear();
 }
 
 void Renderer::Draw()
 {
-    glClearColor(0.86f, 0.86f, 0.86f, 1.0f);
+    glClearColor(0.00f, 0.00f, 0.00f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    glEnable(GL_DEPTH_TEST);
+    glDisable(GL_BLEND);
+
+    mMeshShader->SetActive();
+    mMeshShader->SetMatrixUniform("uViewProj", mView * mProjection);
+    SetLightUniforms(mMeshShader);
+    for(auto mc : mMeshComps)
+    {
+        mc->Draw(mMeshShader);
+    }
+
+    glDisable(GL_DEPTH_TEST);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     mSpriteShader->SetActive();
     mSpriteVerts->SetActive();
@@ -136,7 +148,7 @@ bool Renderer::LoadShaders()
 
     // Create mesh shader 
     mMeshShader = new Shader();
-    if(!mMeshShader->Load("../Shader/BasicVert.glsl", "../Shader/BasicFrag.glsl"))
+    if(!mMeshShader->Load("../Shader/PhongVert.glsl", "../Shader/PhongFrag.glsl"))
     {
         return false;
     }
@@ -163,6 +175,17 @@ void Renderer::CreateSpriteVerts()
     };
 
     mSpriteVerts = new VertexArray(verticies, 4, indicies, 6);
+}
+
+void Renderer::SetLightUniforms(Shader* shader)
+{
+    Matrix4 invView = mView;
+    invView.Invert();
+    shader->SetVectorUniform("uCameraPos", invView.GetTranslation());
+    shader->SetVectorUniform("uAmbientLight", mAmbientLight);
+    shader->SetVectorUniform("uDirLight.mDirection", mDirLight.mDirection);
+    shader->SetVectorUniform("uDirLight.mDiffuseColor", mDirLight.mDiffuseColor);
+    shader->SetVectorUniform("uDirLight.mSpecColor", mDirLight.mSpecColor);
 }
 
 void Renderer::AddSprite(SpriteComponent* sprite)

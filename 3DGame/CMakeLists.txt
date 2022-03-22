@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.7)
 
-project(Asteroid)
+project(3DGame)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/sdl-cmake)
 

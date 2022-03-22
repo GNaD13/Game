@@ -17,6 +17,8 @@ public:
     void SetActive();
 
     void SetMatrixUniform(const std::string& name, const Matrix4& matrix);
+    void SetVectorUniform(const std::string& name, const Vector3& vector);
+    void SetFloatUniform(const std::string& name, float value);
 private:
     bool CompileShader(const std::string& fileName, GLenum shaderType);
     bool IsCompiled(GLuint shader);

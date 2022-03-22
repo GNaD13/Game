@@ -7,11 +7,11 @@ layout(location = 2) in vec2 inTexCoord;
 uniform mat4 uWorldTransform;
 uniform mat4 uViewProj;
 
-out vec2 vTexCoord;
+out vec2 fragTexCoord;
 
 void main()
 {
     vec4 pos = vec4(inPosition, 1.0);
-    vTexCoord = inTexCoord;
+    fragTexCoord = inTexCoord;
     gl_Position = pos * uWorldTransform * uViewProj;
 }

@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Asteroid.dir/src/InputComponent.cpp.o"
   "CMakeFiles/Asteroid.dir/src/Math.cpp.o"
   "CMakeFiles/Asteroid.dir/src/Mesh.cpp.o"
+  "CMakeFiles/Asteroid.dir/src/MeshComponent.cpp.o"
   "CMakeFiles/Asteroid.dir/src/MoveComponent.cpp.o"
   "CMakeFiles/Asteroid.dir/src/Random.cpp.o"
   "CMakeFiles/Asteroid.dir/src/Renderer.cpp.o"
