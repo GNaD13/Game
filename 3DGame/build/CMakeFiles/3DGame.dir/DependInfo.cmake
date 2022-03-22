@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Component.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/3DGame.dir/src/Component.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/3DGame.dir/src/Game.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/InputComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/3DGame.dir/src/InputComponent.cpp.o"
+  "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/LightPointActor.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/3DGame.dir/src/Math.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Mesh.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/3DGame.dir/src/Mesh.cpp.o"
   "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MeshComponent.cpp" "/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/build/CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o"

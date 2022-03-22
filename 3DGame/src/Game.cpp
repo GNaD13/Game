@@ -5,6 +5,7 @@
 #include "MeshComponent.hpp"
 #include "CameraActor.hpp"
 #include "PlaneActor.hpp"
+#include "LightPointActor.hpp"
 
 Game::Game()
     : mTickCount(0)
@@ -165,9 +166,14 @@ void Game::LoadData()
     mc = new MeshComponent(a);
     mc->SetMesh(mRenderer->GetMesh("../Assets/Sphere.gpmesh"));
 
+    q = Quaternion(Vector3::UnitZ, Math::PiOver2);
+    LightPointActor* light = new LightPointActor(this);
+    light->SetPosition(Vector3(0.0f, 100.0f, 100.0f));
+    light->SetRotation(q);
+
     mRenderer->SetAmbientLight(Vector3(0.2f, 0.2f, 0.2f));
 	DirectionalLight& dir = mRenderer->GetDirectionalLight();
-	dir.mDirection = Vector3(0.0f, -0.707f, -0.707f);
+	// dir.mDirection = Vector3(0.0f, -0.707f, -0.707f);
 	dir.mDiffuseColor = Vector3(0.78f, 0.88f, 1.0f);
 	dir.mSpecColor = Vector3(0.8f, 0.8f, 0.8f);
 
@@ -207,7 +213,7 @@ void Game::LoadData()
 		a->SetRotation(q);
 	}
 
-    CameraActor* camera = new CameraActor(this);
+    // CameraActor* camera = new CameraActor(this);
 
     a = new Actor(this);
 	a->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));

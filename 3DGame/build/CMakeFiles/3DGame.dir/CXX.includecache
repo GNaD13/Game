@@ -253,6 +253,8 @@ CameraActor.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/CameraActor.hpp
 PlaneActor.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/PlaneActor.hpp
+LightPointActor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/LightPointActor.hpp
 
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
 vector
@@ -281,6 +283,22 @@ InputComponent.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/InputComponent.hpp
 MoveComponent.hpp
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/LightPointActor.cpp
+LightPointActor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/LightPointActor.hpp
+MoveComponent.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/MoveComponent.hpp
+Game.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Game.hpp
+Renderer.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Renderer.hpp
+
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/LightPointActor.hpp
+Actor.hpp
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Actor.hpp
+Math.h
+/media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.h
 
 /media/dangvhb/DATA/dangVHbCode/GameProgC++/Game/Game/3DGame/src/Math.cpp
 Math.h

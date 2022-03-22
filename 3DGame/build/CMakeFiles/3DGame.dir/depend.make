@@ -40,6 +40,7 @@ CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/CameraActor.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Component.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Game.cpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Game.hpp
+CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/LightPointActor.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/Math.h
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/MeshComponent.hpp
 CMakeFiles/3DGame.dir/src/Game.cpp.o: ../src/PlaneActor.hpp
@@ -53,6 +54,19 @@ CMakeFiles/3DGame.dir/src/InputComponent.cpp.o: ../src/Component.hpp
 CMakeFiles/3DGame.dir/src/InputComponent.cpp.o: ../src/InputComponent.cpp
 CMakeFiles/3DGame.dir/src/InputComponent.cpp.o: ../src/InputComponent.hpp
 CMakeFiles/3DGame.dir/src/InputComponent.cpp.o: ../src/MoveComponent.hpp
+
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/Actor.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/Component.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/Game.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/LightPointActor.cpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/LightPointActor.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/Math.h
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/MoveComponent.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/Renderer.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/Shader.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/SpriteComponent.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/Texture.hpp
+CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o: ../src/VertexArray.hpp
 
 CMakeFiles/3DGame.dir/src/Math.cpp.o: ../src/Math.cpp
 CMakeFiles/3DGame.dir/src/Math.cpp.o: ../src/Math.h

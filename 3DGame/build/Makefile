@@ -285,6 +285,33 @@ src/InputComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/InputComponent.cpp.s
 .PHONY : src/InputComponent.cpp.s
 
+src/LightPointActor.o: src/LightPointActor.cpp.o
+
+.PHONY : src/LightPointActor.o
+
+# target to build an object file
+src/LightPointActor.cpp.o:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o
+.PHONY : src/LightPointActor.cpp.o
+
+src/LightPointActor.i: src/LightPointActor.cpp.i
+
+.PHONY : src/LightPointActor.i
+
+# target to preprocess a source file
+src/LightPointActor.cpp.i:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/LightPointActor.cpp.i
+.PHONY : src/LightPointActor.cpp.i
+
+src/LightPointActor.s: src/LightPointActor.cpp.s
+
+.PHONY : src/LightPointActor.s
+
+# target to generate assembly for a file
+src/LightPointActor.cpp.s:
+	$(MAKE) -f CMakeFiles/3DGame.dir/build.make CMakeFiles/3DGame.dir/src/LightPointActor.cpp.s
+.PHONY : src/LightPointActor.cpp.s
+
 src/Math.o: src/Math.cpp.o
 
 .PHONY : src/Math.o
@@ -636,6 +663,9 @@ help:
 	@echo "... src/InputComponent.o"
 	@echo "... src/InputComponent.i"
 	@echo "... src/InputComponent.s"
+	@echo "... src/LightPointActor.o"
+	@echo "... src/LightPointActor.i"
+	@echo "... src/LightPointActor.s"
 	@echo "... src/Math.o"
 	@echo "... src/Math.i"
 	@echo "... src/Math.s"

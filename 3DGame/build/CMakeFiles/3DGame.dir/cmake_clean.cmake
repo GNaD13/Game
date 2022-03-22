@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/3DGame.dir/src/Component.cpp.o"
   "CMakeFiles/3DGame.dir/src/Game.cpp.o"
   "CMakeFiles/3DGame.dir/src/InputComponent.cpp.o"
+  "CMakeFiles/3DGame.dir/src/LightPointActor.cpp.o"
   "CMakeFiles/3DGame.dir/src/Math.cpp.o"
   "CMakeFiles/3DGame.dir/src/Mesh.cpp.o"
   "CMakeFiles/3DGame.dir/src/MeshComponent.cpp.o"
